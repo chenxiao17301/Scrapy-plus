@@ -1,0 +1,1058 @@
+2018-08-01 14:05:26 scheduler.py [line:19] INFO: ROLE is None
+2018-08-01 14:05:26 engine.py [line:35] INFO: [Async Type]: coroutine
+2018-08-01 14:05:26 engine.py [line:105] INFO: Start time : 2018-08-01 14:05:26.366224
+2018-08-01 14:05:26 engine.py [line:106] INFO: ------------------------------------------------------------------------------------------------------------------------
+2018-08-01 14:05:26 scheduler.py [line:70] INFO: Filter request: [GET] <http://www.baidu.com/>
+2018-08-01 14:05:26 downloader.py [line:13] INFO: [Downloader] : Request [GET] <http://www.baidu.com>
+2018-08-01 14:05:26 connectionpool.py [line:213] INFO: Starting new HTTP connection (1): www.baidu.com
+2018-08-01 14:05:26 downloader.py [line:13] INFO: [Downloader] : Request [GET] <http://news.baidu.com/>
+2018-08-01 14:05:26 connectionpool.py [line:213] INFO: Starting new HTTP connection (1): news.baidu.com
+2018-08-01 14:05:26 downloader.py [line:13] INFO: [Downloader] : Request [GET] <https://movie.douban.com/top250?start=0>
+2018-08-01 14:05:26 connectionpool.py [line:788] INFO: Starting new HTTPS connection (1): movie.douban.com
+2018-08-01 14:05:26 downloader.py [line:37] INFO: [Downloader]: Response [200] <http://www.baidu.com/>
+2018-08-01 14:05:26 downloader.py [line:13] INFO: [Downloader] : Request [GET] <https://movie.douban.com/top250?start=25>
+2018-08-01 14:05:26 connectionpool.py [line:788] INFO: Starting new HTTPS connection (1): movie.douban.com
+2018-08-01 14:05:27 downloader.py [line:37] INFO: [Downloader]: Response [200] <http://news.baidu.com/>
+2018-08-01 14:05:27 downloader.py [line:13] INFO: [Downloader] : Request [GET] <https://movie.douban.com/top250?start=50>
+2018-08-01 14:05:27 connectionpool.py [line:788] INFO: Starting new HTTPS connection (1): movie.douban.com
+2018-08-01 14:05:28 downloader.py [line:37] INFO: [Downloader]: Response [200] <https://movie.douban.com/top250?start=0>
+2018-08-01 14:05:29 downloader.py [line:13] INFO: [Downloader] : Request [GET] <https://movie.douban.com/top250?start=75>
+2018-08-01 14:05:29 connectionpool.py [line:788] INFO: Starting new HTTPS connection (1): movie.douban.com
+2018-08-01 14:05:29 downloader.py [line:37] INFO: [Downloader]: Response [200] <https://movie.douban.com/top250?start=25>
+2018-08-01 14:05:29 downloader.py [line:13] INFO: [Downloader] : Request [GET] <https://movie.douban.com/top250?start=100>
+2018-08-01 14:05:29 connectionpool.py [line:788] INFO: Starting new HTTPS connection (1): movie.douban.com
+2018-08-01 14:05:30 downloader.py [line:37] INFO: [Downloader]: Response [200] <https://movie.douban.com/top250?start=100>
+2018-08-01 14:05:30 downloader.py [line:13] INFO: [Downloader] : Request [GET] <https://movie.douban.com/top250?start=125>
+2018-08-01 14:05:30 connectionpool.py [line:788] INFO: Starting new HTTPS connection (1): movie.douban.com
+2018-08-01 14:05:31 downloader.py [line:37] INFO: [Downloader]: Response [200] <https://movie.douban.com/top250?start=75>
+2018-08-01 14:05:32 downloader.py [line:13] INFO: [Downloader] : Request [GET] <https://movie.douban.com/top250?start=150>
+2018-08-01 14:05:32 connectionpool.py [line:788] INFO: Starting new HTTPS connection (1): movie.douban.com
+2018-08-01 14:05:33 downloader.py [line:37] INFO: [Downloader]: Response [200] <https://movie.douban.com/top250?start=150>
+2018-08-01 14:05:33 downloader.py [line:13] INFO: [Downloader] : Request [GET] <https://movie.douban.com/top250?start=175>
+2018-08-01 14:05:33 connectionpool.py [line:788] INFO: Starting new HTTPS connection (1): movie.douban.com
+2018-08-01 14:05:34 downloader.py [line:37] INFO: [Downloader]: Response [200] <https://movie.douban.com/top250?start=175>
+2018-08-01 14:05:34 downloader.py [line:13] INFO: [Downloader] : Request [GET] <https://movie.douban.com/top250?start=200>
+2018-08-01 14:05:34 connectionpool.py [line:788] INFO: Starting new HTTPS connection (1): movie.douban.com
+2018-08-01 14:05:35 downloader.py [line:37] INFO: [Downloader]: Response [200] <https://movie.douban.com/top250?start=200>
+2018-08-01 14:05:35 downloader.py [line:13] INFO: [Downloader] : Request [GET] <https://movie.douban.com/top250?start=225>
+2018-08-01 14:05:35 connectionpool.py [line:788] INFO: Starting new HTTPS connection (1): movie.douban.com
+2018-08-01 14:05:35 downloader.py [line:37] INFO: [Downloader]: Response [200] <https://movie.douban.com/top250?start=50>
+2018-08-01 14:05:36 downloader.py [line:37] INFO: [Downloader]: Response [200] <https://movie.douban.com/top250?start=225>
+2018-08-01 14:05:36 downloader.py [line:37] INFO: [Downloader]: Response [200] <https://movie.douban.com/top250?start=125>
+2018-08-01 14:05:37 engine.py [line:158] INFO: Main Thread is over!
+2018-08-01 14:05:37 engine.py [line:113] INFO: ------------------------------------------------------------------------------------------------------------------------
+2018-08-01 14:05:37 engine.py [line:114] INFO: End time : 2018-08-01 14:05:37.550318
+2018-08-01 14:05:37 engine.py [line:116] INFO: Useing time : 11.184094
+2018-08-01 14:05:40 engine.py [line:105] INFO: Start time : 2018-08-01 14:05:40.552192
+2018-08-01 14:05:40 engine.py [line:106] INFO: ------------------------------------------------------------------------------------------------------------------------
+2018-08-01 14:05:40 scheduler.py [line:70] INFO: Filter request: [GET] <http://www.baidu.com>
+2018-08-01 14:05:40 scheduler.py [line:70] INFO: Filter request: [GET] <http://news.baidu.com/>
+2018-08-01 14:05:40 scheduler.py [line:70] INFO: Filter request: [GET] <http://www.baidu.com/>
+2018-08-01 14:05:40 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=0>
+2018-08-01 14:05:40 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=25>
+2018-08-01 14:05:40 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=50>
+2018-08-01 14:05:40 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=75>
+2018-08-01 14:05:40 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=100>
+2018-08-01 14:05:40 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=125>
+2018-08-01 14:05:40 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=150>
+2018-08-01 14:05:40 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=175>
+2018-08-01 14:05:40 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=200>
+2018-08-01 14:05:40 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=225>
+2018-08-01 14:05:40 engine.py [line:158] INFO: Main Thread is over!
+2018-08-01 14:05:40 engine.py [line:113] INFO: ------------------------------------------------------------------------------------------------------------------------
+2018-08-01 14:05:40 engine.py [line:114] INFO: End time : 2018-08-01 14:05:40.575128
+2018-08-01 14:05:40 engine.py [line:116] INFO: Useing time : 0.022936
+2018-08-01 14:05:43 engine.py [line:105] INFO: Start time : 2018-08-01 14:05:43.578200
+2018-08-01 14:05:43 engine.py [line:106] INFO: ------------------------------------------------------------------------------------------------------------------------
+2018-08-01 14:05:43 scheduler.py [line:70] INFO: Filter request: [GET] <http://www.baidu.com>
+2018-08-01 14:05:43 scheduler.py [line:70] INFO: Filter request: [GET] <http://news.baidu.com/>
+2018-08-01 14:05:43 scheduler.py [line:70] INFO: Filter request: [GET] <http://www.baidu.com/>
+2018-08-01 14:05:43 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=0>
+2018-08-01 14:05:43 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=25>
+2018-08-01 14:05:43 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=50>
+2018-08-01 14:05:43 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=75>
+2018-08-01 14:05:43 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=100>
+2018-08-01 14:05:43 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=125>
+2018-08-01 14:05:43 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=150>
+2018-08-01 14:05:43 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=175>
+2018-08-01 14:05:43 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=200>
+2018-08-01 14:05:43 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=225>
+2018-08-01 14:05:43 engine.py [line:158] INFO: Main Thread is over!
+2018-08-01 14:05:43 engine.py [line:113] INFO: ------------------------------------------------------------------------------------------------------------------------
+2018-08-01 14:05:43 engine.py [line:114] INFO: End time : 2018-08-01 14:05:43.626009
+2018-08-01 14:05:43 engine.py [line:116] INFO: Useing time : 0.047809
+2018-08-01 14:05:46 engine.py [line:105] INFO: Start time : 2018-08-01 14:05:46.629306
+2018-08-01 14:05:46 engine.py [line:106] INFO: ------------------------------------------------------------------------------------------------------------------------
+2018-08-01 14:05:46 scheduler.py [line:70] INFO: Filter request: [GET] <http://www.baidu.com>
+2018-08-01 14:05:46 scheduler.py [line:70] INFO: Filter request: [GET] <http://news.baidu.com/>
+2018-08-01 14:05:46 scheduler.py [line:70] INFO: Filter request: [GET] <http://www.baidu.com/>
+2018-08-01 14:05:46 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=0>
+2018-08-01 14:05:46 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=25>
+2018-08-01 14:05:46 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=50>
+2018-08-01 14:05:46 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=75>
+2018-08-01 14:05:46 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=100>
+2018-08-01 14:05:46 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=125>
+2018-08-01 14:05:46 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=150>
+2018-08-01 14:05:46 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=175>
+2018-08-01 14:05:46 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=200>
+2018-08-01 14:05:46 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=225>
+2018-08-01 14:05:46 engine.py [line:158] INFO: Main Thread is over!
+2018-08-01 14:05:46 engine.py [line:113] INFO: ------------------------------------------------------------------------------------------------------------------------
+2018-08-01 14:05:46 engine.py [line:114] INFO: End time : 2018-08-01 14:05:46.677948
+2018-08-01 14:05:46 engine.py [line:116] INFO: Useing time : 0.048642
+2018-08-01 14:05:49 engine.py [line:105] INFO: Start time : 2018-08-01 14:05:49.679801
+2018-08-01 14:05:49 engine.py [line:106] INFO: ------------------------------------------------------------------------------------------------------------------------
+2018-08-01 14:05:49 scheduler.py [line:70] INFO: Filter request: [GET] <http://www.baidu.com>
+2018-08-01 14:05:49 scheduler.py [line:70] INFO: Filter request: [GET] <http://news.baidu.com/>
+2018-08-01 14:05:49 scheduler.py [line:70] INFO: Filter request: [GET] <http://www.baidu.com/>
+2018-08-01 14:05:49 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=0>
+2018-08-01 14:05:49 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=25>
+2018-08-01 14:05:49 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=50>
+2018-08-01 14:05:49 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=75>
+2018-08-01 14:05:49 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=100>
+2018-08-01 14:05:49 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=125>
+2018-08-01 14:05:49 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=150>
+2018-08-01 14:05:49 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=175>
+2018-08-01 14:05:49 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=200>
+2018-08-01 14:05:49 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=225>
+2018-08-01 14:05:49 engine.py [line:158] INFO: Main Thread is over!
+2018-08-01 14:05:49 engine.py [line:113] INFO: ------------------------------------------------------------------------------------------------------------------------
+2018-08-01 14:05:49 engine.py [line:114] INFO: End time : 2018-08-01 14:05:49.693094
+2018-08-01 14:05:49 engine.py [line:116] INFO: Useing time : 0.013293
+2018-08-01 14:05:52 engine.py [line:105] INFO: Start time : 2018-08-01 14:05:52.695982
+2018-08-01 14:05:52 engine.py [line:106] INFO: ------------------------------------------------------------------------------------------------------------------------
+2018-08-01 14:05:52 scheduler.py [line:70] INFO: Filter request: [GET] <http://www.baidu.com>
+2018-08-01 14:05:52 scheduler.py [line:70] INFO: Filter request: [GET] <http://news.baidu.com/>
+2018-08-01 14:05:52 scheduler.py [line:70] INFO: Filter request: [GET] <http://www.baidu.com/>
+2018-08-01 14:05:52 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=0>
+2018-08-01 14:05:52 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=25>
+2018-08-01 14:05:52 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=50>
+2018-08-01 14:05:52 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=75>
+2018-08-01 14:05:52 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=100>
+2018-08-01 14:05:52 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=125>
+2018-08-01 14:05:52 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=150>
+2018-08-01 14:05:52 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=175>
+2018-08-01 14:05:52 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=200>
+2018-08-01 14:05:52 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=225>
+2018-08-01 14:05:52 engine.py [line:158] INFO: Main Thread is over!
+2018-08-01 14:05:52 engine.py [line:113] INFO: ------------------------------------------------------------------------------------------------------------------------
+2018-08-01 14:05:52 engine.py [line:114] INFO: End time : 2018-08-01 14:05:52.730278
+2018-08-01 14:05:52 engine.py [line:116] INFO: Useing time : 0.034296
+2018-08-01 14:05:55 engine.py [line:105] INFO: Start time : 2018-08-01 14:05:55.734771
+2018-08-01 14:05:55 engine.py [line:106] INFO: ------------------------------------------------------------------------------------------------------------------------
+2018-08-01 14:05:55 scheduler.py [line:70] INFO: Filter request: [GET] <http://www.baidu.com>
+2018-08-01 14:05:55 scheduler.py [line:70] INFO: Filter request: [GET] <http://news.baidu.com/>
+2018-08-01 14:05:55 scheduler.py [line:70] INFO: Filter request: [GET] <http://www.baidu.com/>
+2018-08-01 14:05:55 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=0>
+2018-08-01 14:05:55 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=25>
+2018-08-01 14:05:55 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=50>
+2018-08-01 14:05:55 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=75>
+2018-08-01 14:05:55 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=100>
+2018-08-01 14:05:55 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=125>
+2018-08-01 14:05:55 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=150>
+2018-08-01 14:05:55 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=175>
+2018-08-01 14:05:55 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=200>
+2018-08-01 14:05:55 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=225>
+2018-08-01 14:05:55 engine.py [line:158] INFO: Main Thread is over!
+2018-08-01 14:05:55 engine.py [line:113] INFO: ------------------------------------------------------------------------------------------------------------------------
+2018-08-01 14:05:55 engine.py [line:114] INFO: End time : 2018-08-01 14:05:55.750157
+2018-08-01 14:05:55 engine.py [line:116] INFO: Useing time : 0.015386
+2018-08-01 14:05:58 engine.py [line:105] INFO: Start time : 2018-08-01 14:05:58.758815
+2018-08-01 14:05:58 engine.py [line:106] INFO: ------------------------------------------------------------------------------------------------------------------------
+2018-08-01 14:05:58 scheduler.py [line:70] INFO: Filter request: [GET] <http://www.baidu.com>
+2018-08-01 14:05:58 scheduler.py [line:70] INFO: Filter request: [GET] <http://news.baidu.com/>
+2018-08-01 14:05:58 scheduler.py [line:70] INFO: Filter request: [GET] <http://www.baidu.com/>
+2018-08-01 14:05:58 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=0>
+2018-08-01 14:05:58 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=25>
+2018-08-01 14:05:58 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=50>
+2018-08-01 14:05:58 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=75>
+2018-08-01 14:05:58 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=100>
+2018-08-01 14:05:58 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=125>
+2018-08-01 14:05:58 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=150>
+2018-08-01 14:05:58 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=175>
+2018-08-01 14:05:58 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=200>
+2018-08-01 14:05:58 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=225>
+2018-08-01 14:05:58 engine.py [line:158] INFO: Main Thread is over!
+2018-08-01 14:05:58 engine.py [line:113] INFO: ------------------------------------------------------------------------------------------------------------------------
+2018-08-01 14:05:58 engine.py [line:114] INFO: End time : 2018-08-01 14:05:58.793600
+2018-08-01 14:05:58 engine.py [line:116] INFO: Useing time : 0.034785
+2018-08-01 14:06:01 engine.py [line:105] INFO: Start time : 2018-08-01 14:06:01.803846
+2018-08-01 14:06:01 engine.py [line:106] INFO: ------------------------------------------------------------------------------------------------------------------------
+2018-08-01 14:06:01 scheduler.py [line:70] INFO: Filter request: [GET] <http://www.baidu.com>
+2018-08-01 14:06:01 scheduler.py [line:70] INFO: Filter request: [GET] <http://news.baidu.com/>
+2018-08-01 14:06:01 scheduler.py [line:70] INFO: Filter request: [GET] <http://www.baidu.com/>
+2018-08-01 14:06:01 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=0>
+2018-08-01 14:06:01 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=25>
+2018-08-01 14:06:01 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=50>
+2018-08-01 14:06:01 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=75>
+2018-08-01 14:06:01 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=100>
+2018-08-01 14:06:01 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=125>
+2018-08-01 14:06:01 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=150>
+2018-08-01 14:06:01 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=175>
+2018-08-01 14:06:01 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=200>
+2018-08-01 14:06:01 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=225>
+2018-08-01 14:06:01 engine.py [line:158] INFO: Main Thread is over!
+2018-08-01 14:06:01 engine.py [line:113] INFO: ------------------------------------------------------------------------------------------------------------------------
+2018-08-01 14:06:01 engine.py [line:114] INFO: End time : 2018-08-01 14:06:01.821004
+2018-08-01 14:06:01 engine.py [line:116] INFO: Useing time : 0.017158
+2018-08-01 14:06:04 engine.py [line:105] INFO: Start time : 2018-08-01 14:06:04.821617
+2018-08-01 14:06:04 engine.py [line:106] INFO: ------------------------------------------------------------------------------------------------------------------------
+2018-08-01 14:06:04 scheduler.py [line:70] INFO: Filter request: [GET] <http://www.baidu.com>
+2018-08-01 14:06:04 scheduler.py [line:70] INFO: Filter request: [GET] <http://news.baidu.com/>
+2018-08-01 14:06:04 scheduler.py [line:70] INFO: Filter request: [GET] <http://www.baidu.com/>
+2018-08-01 14:06:04 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=0>
+2018-08-01 14:06:04 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=25>
+2018-08-01 14:06:04 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=50>
+2018-08-01 14:06:04 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=75>
+2018-08-01 14:06:04 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=100>
+2018-08-01 14:06:04 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=125>
+2018-08-01 14:06:04 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=150>
+2018-08-01 14:06:04 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=175>
+2018-08-01 14:06:04 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=200>
+2018-08-01 14:06:04 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=225>
+2018-08-01 14:06:04 engine.py [line:158] INFO: Main Thread is over!
+2018-08-01 14:06:04 engine.py [line:113] INFO: ------------------------------------------------------------------------------------------------------------------------
+2018-08-01 14:06:04 engine.py [line:114] INFO: End time : 2018-08-01 14:06:04.838659
+2018-08-01 14:06:04 engine.py [line:116] INFO: Useing time : 0.017042
+2018-08-01 14:06:07 engine.py [line:105] INFO: Start time : 2018-08-01 14:06:07.841683
+2018-08-01 14:06:07 engine.py [line:106] INFO: ------------------------------------------------------------------------------------------------------------------------
+2018-08-01 14:06:07 scheduler.py [line:70] INFO: Filter request: [GET] <http://www.baidu.com>
+2018-08-01 14:06:07 scheduler.py [line:70] INFO: Filter request: [GET] <http://news.baidu.com/>
+2018-08-01 14:06:07 scheduler.py [line:70] INFO: Filter request: [GET] <http://www.baidu.com/>
+2018-08-01 14:06:07 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=0>
+2018-08-01 14:06:07 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=25>
+2018-08-01 14:06:07 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=50>
+2018-08-01 14:06:07 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=75>
+2018-08-01 14:06:07 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=100>
+2018-08-01 14:06:07 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=125>
+2018-08-01 14:06:07 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=150>
+2018-08-01 14:06:07 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=175>
+2018-08-01 14:06:07 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=200>
+2018-08-01 14:06:07 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=225>
+2018-08-01 14:06:07 engine.py [line:158] INFO: Main Thread is over!
+2018-08-01 14:06:07 engine.py [line:113] INFO: ------------------------------------------------------------------------------------------------------------------------
+2018-08-01 14:06:07 engine.py [line:114] INFO: End time : 2018-08-01 14:06:07.883819
+2018-08-01 14:06:07 engine.py [line:116] INFO: Useing time : 0.042136
+2018-08-01 14:06:10 engine.py [line:105] INFO: Start time : 2018-08-01 14:06:10.887077
+2018-08-01 14:06:10 engine.py [line:106] INFO: ------------------------------------------------------------------------------------------------------------------------
+2018-08-01 14:06:10 scheduler.py [line:70] INFO: Filter request: [GET] <http://www.baidu.com>
+2018-08-01 14:06:10 scheduler.py [line:70] INFO: Filter request: [GET] <http://news.baidu.com/>
+2018-08-01 14:06:10 scheduler.py [line:70] INFO: Filter request: [GET] <http://www.baidu.com/>
+2018-08-01 14:06:10 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=0>
+2018-08-01 14:06:10 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=25>
+2018-08-01 14:06:10 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=50>
+2018-08-01 14:06:10 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=75>
+2018-08-01 14:06:10 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=100>
+2018-08-01 14:06:10 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=125>
+2018-08-01 14:06:10 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=150>
+2018-08-01 14:06:10 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=175>
+2018-08-01 14:06:10 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=200>
+2018-08-01 14:06:10 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=225>
+2018-08-01 14:06:10 engine.py [line:158] INFO: Main Thread is over!
+2018-08-01 14:06:10 engine.py [line:113] INFO: ------------------------------------------------------------------------------------------------------------------------
+2018-08-01 14:06:10 engine.py [line:114] INFO: End time : 2018-08-01 14:06:10.934414
+2018-08-01 14:06:10 engine.py [line:116] INFO: Useing time : 0.047337
+2018-08-01 14:06:13 engine.py [line:105] INFO: Start time : 2018-08-01 14:06:13.937128
+2018-08-01 14:06:13 engine.py [line:106] INFO: ------------------------------------------------------------------------------------------------------------------------
+2018-08-01 14:06:13 scheduler.py [line:70] INFO: Filter request: [GET] <http://www.baidu.com>
+2018-08-01 14:06:13 scheduler.py [line:70] INFO: Filter request: [GET] <http://news.baidu.com/>
+2018-08-01 14:06:13 scheduler.py [line:70] INFO: Filter request: [GET] <http://www.baidu.com/>
+2018-08-01 14:06:13 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=0>
+2018-08-01 14:06:13 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=25>
+2018-08-01 14:06:13 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=50>
+2018-08-01 14:06:13 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=75>
+2018-08-01 14:06:13 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=100>
+2018-08-01 14:06:13 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=125>
+2018-08-01 14:06:13 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=150>
+2018-08-01 14:06:13 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=175>
+2018-08-01 14:06:13 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=200>
+2018-08-01 14:06:13 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=225>
+2018-08-01 14:06:13 engine.py [line:158] INFO: Main Thread is over!
+2018-08-01 14:06:13 engine.py [line:113] INFO: ------------------------------------------------------------------------------------------------------------------------
+2018-08-01 14:06:13 engine.py [line:114] INFO: End time : 2018-08-01 14:06:13.958407
+2018-08-01 14:06:13 engine.py [line:116] INFO: Useing time : 0.021279
+2018-08-01 14:06:16 engine.py [line:105] INFO: Start time : 2018-08-01 14:06:16.962061
+2018-08-01 14:06:16 engine.py [line:106] INFO: ------------------------------------------------------------------------------------------------------------------------
+2018-08-01 14:06:16 scheduler.py [line:70] INFO: Filter request: [GET] <http://www.baidu.com>
+2018-08-01 14:06:16 scheduler.py [line:70] INFO: Filter request: [GET] <http://news.baidu.com/>
+2018-08-01 14:06:16 scheduler.py [line:70] INFO: Filter request: [GET] <http://www.baidu.com/>
+2018-08-01 14:06:16 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=0>
+2018-08-01 14:06:16 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=25>
+2018-08-01 14:06:16 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=50>
+2018-08-01 14:06:16 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=75>
+2018-08-01 14:06:16 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=100>
+2018-08-01 14:06:16 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=125>
+2018-08-01 14:06:16 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=150>
+2018-08-01 14:06:16 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=175>
+2018-08-01 14:06:16 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=200>
+2018-08-01 14:06:16 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=225>
+2018-08-01 14:06:16 engine.py [line:158] INFO: Main Thread is over!
+2018-08-01 14:06:16 engine.py [line:113] INFO: ------------------------------------------------------------------------------------------------------------------------
+2018-08-01 14:06:16 engine.py [line:114] INFO: End time : 2018-08-01 14:06:16.974337
+2018-08-01 14:06:16 engine.py [line:116] INFO: Useing time : 0.012276
+2018-08-01 14:06:19 engine.py [line:105] INFO: Start time : 2018-08-01 14:06:19.975537
+2018-08-01 14:06:19 engine.py [line:106] INFO: ------------------------------------------------------------------------------------------------------------------------
+2018-08-01 14:06:19 scheduler.py [line:70] INFO: Filter request: [GET] <http://www.baidu.com>
+2018-08-01 14:06:19 scheduler.py [line:70] INFO: Filter request: [GET] <http://news.baidu.com/>
+2018-08-01 14:06:19 scheduler.py [line:70] INFO: Filter request: [GET] <http://www.baidu.com/>
+2018-08-01 14:06:19 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=0>
+2018-08-01 14:06:19 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=25>
+2018-08-01 14:06:19 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=50>
+2018-08-01 14:06:19 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=75>
+2018-08-01 14:06:19 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=100>
+2018-08-01 14:06:19 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=125>
+2018-08-01 14:06:19 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=150>
+2018-08-01 14:06:19 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=175>
+2018-08-01 14:06:19 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=200>
+2018-08-01 14:06:19 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=225>
+2018-08-01 14:06:19 engine.py [line:158] INFO: Main Thread is over!
+2018-08-01 14:06:19 engine.py [line:113] INFO: ------------------------------------------------------------------------------------------------------------------------
+2018-08-01 14:06:19 engine.py [line:114] INFO: End time : 2018-08-01 14:06:19.992326
+2018-08-01 14:06:19 engine.py [line:116] INFO: Useing time : 0.016789
+2018-08-01 14:06:23 engine.py [line:105] INFO: Start time : 2018-08-01 14:06:23.001229
+2018-08-01 14:06:23 engine.py [line:106] INFO: ------------------------------------------------------------------------------------------------------------------------
+2018-08-01 14:06:23 scheduler.py [line:70] INFO: Filter request: [GET] <http://www.baidu.com>
+2018-08-01 14:06:23 scheduler.py [line:70] INFO: Filter request: [GET] <http://news.baidu.com/>
+2018-08-01 14:06:23 scheduler.py [line:70] INFO: Filter request: [GET] <http://www.baidu.com/>
+2018-08-01 14:06:23 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=0>
+2018-08-01 14:06:23 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=25>
+2018-08-01 14:06:23 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=50>
+2018-08-01 14:06:23 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=75>
+2018-08-01 14:06:23 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=100>
+2018-08-01 14:06:23 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=125>
+2018-08-01 14:06:23 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=150>
+2018-08-01 14:06:23 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=175>
+2018-08-01 14:06:23 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=200>
+2018-08-01 14:06:23 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=225>
+2018-08-01 14:06:23 engine.py [line:158] INFO: Main Thread is over!
+2018-08-01 14:06:23 engine.py [line:113] INFO: ------------------------------------------------------------------------------------------------------------------------
+2018-08-01 14:06:23 engine.py [line:114] INFO: End time : 2018-08-01 14:06:23.025593
+2018-08-01 14:06:23 engine.py [line:116] INFO: Useing time : 0.024364
+2018-08-01 14:06:26 engine.py [line:105] INFO: Start time : 2018-08-01 14:06:26.027137
+2018-08-01 14:06:26 engine.py [line:106] INFO: ------------------------------------------------------------------------------------------------------------------------
+2018-08-01 14:06:26 scheduler.py [line:70] INFO: Filter request: [GET] <http://www.baidu.com>
+2018-08-01 14:06:26 scheduler.py [line:70] INFO: Filter request: [GET] <http://news.baidu.com/>
+2018-08-01 14:06:26 scheduler.py [line:70] INFO: Filter request: [GET] <http://www.baidu.com/>
+2018-08-01 14:06:26 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=0>
+2018-08-01 14:06:26 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=25>
+2018-08-01 14:06:26 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=50>
+2018-08-01 14:06:26 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=75>
+2018-08-01 14:06:26 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=100>
+2018-08-01 14:06:26 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=125>
+2018-08-01 14:06:26 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=150>
+2018-08-01 14:06:26 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=175>
+2018-08-01 14:06:26 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=200>
+2018-08-01 14:06:26 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=225>
+2018-08-01 14:06:26 engine.py [line:158] INFO: Main Thread is over!
+2018-08-01 14:06:26 engine.py [line:113] INFO: ------------------------------------------------------------------------------------------------------------------------
+2018-08-01 14:06:26 engine.py [line:114] INFO: End time : 2018-08-01 14:06:26.052332
+2018-08-01 14:06:26 engine.py [line:116] INFO: Useing time : 0.025195
+2018-08-01 14:06:29 engine.py [line:105] INFO: Start time : 2018-08-01 14:06:29.060141
+2018-08-01 14:06:29 engine.py [line:106] INFO: ------------------------------------------------------------------------------------------------------------------------
+2018-08-01 14:06:29 scheduler.py [line:70] INFO: Filter request: [GET] <http://www.baidu.com>
+2018-08-01 14:06:29 scheduler.py [line:70] INFO: Filter request: [GET] <http://news.baidu.com/>
+2018-08-01 14:06:29 scheduler.py [line:70] INFO: Filter request: [GET] <http://www.baidu.com/>
+2018-08-01 14:06:29 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=0>
+2018-08-01 14:06:29 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=25>
+2018-08-01 14:06:29 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=50>
+2018-08-01 14:06:29 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=75>
+2018-08-01 14:06:29 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=100>
+2018-08-01 14:06:29 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=125>
+2018-08-01 14:06:29 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=150>
+2018-08-01 14:06:29 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=175>
+2018-08-01 14:06:29 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=200>
+2018-08-01 14:06:29 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=225>
+2018-08-01 14:06:29 engine.py [line:158] INFO: Main Thread is over!
+2018-08-01 14:06:29 engine.py [line:113] INFO: ------------------------------------------------------------------------------------------------------------------------
+2018-08-01 14:06:29 engine.py [line:114] INFO: End time : 2018-08-01 14:06:29.105108
+2018-08-01 14:06:29 engine.py [line:116] INFO: Useing time : 0.044967
+2018-08-01 14:06:32 engine.py [line:105] INFO: Start time : 2018-08-01 14:06:32.108880
+2018-08-01 14:06:32 engine.py [line:106] INFO: ------------------------------------------------------------------------------------------------------------------------
+2018-08-01 14:06:32 scheduler.py [line:70] INFO: Filter request: [GET] <http://www.baidu.com>
+2018-08-01 14:06:32 scheduler.py [line:70] INFO: Filter request: [GET] <http://news.baidu.com/>
+2018-08-01 14:06:32 scheduler.py [line:70] INFO: Filter request: [GET] <http://www.baidu.com/>
+2018-08-01 14:06:32 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=0>
+2018-08-01 14:06:32 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=25>
+2018-08-01 14:06:32 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=50>
+2018-08-01 14:06:32 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=75>
+2018-08-01 14:06:32 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=100>
+2018-08-01 14:06:32 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=125>
+2018-08-01 14:06:32 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=150>
+2018-08-01 14:06:32 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=175>
+2018-08-01 14:06:32 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=200>
+2018-08-01 14:06:32 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=225>
+2018-08-01 14:06:32 engine.py [line:158] INFO: Main Thread is over!
+2018-08-01 14:06:32 engine.py [line:113] INFO: ------------------------------------------------------------------------------------------------------------------------
+2018-08-01 14:06:32 engine.py [line:114] INFO: End time : 2018-08-01 14:06:32.151920
+2018-08-01 14:06:32 engine.py [line:116] INFO: Useing time : 0.04304
+2018-08-01 14:06:35 engine.py [line:105] INFO: Start time : 2018-08-01 14:06:35.152924
+2018-08-01 14:06:35 engine.py [line:106] INFO: ------------------------------------------------------------------------------------------------------------------------
+2018-08-01 14:06:35 scheduler.py [line:70] INFO: Filter request: [GET] <http://www.baidu.com>
+2018-08-01 14:06:35 scheduler.py [line:70] INFO: Filter request: [GET] <http://news.baidu.com/>
+2018-08-01 14:06:35 scheduler.py [line:70] INFO: Filter request: [GET] <http://www.baidu.com/>
+2018-08-01 14:06:35 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=0>
+2018-08-01 14:06:35 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=25>
+2018-08-01 14:06:35 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=50>
+2018-08-01 14:06:35 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=75>
+2018-08-01 14:06:35 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=100>
+2018-08-01 14:06:35 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=125>
+2018-08-01 14:06:35 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=150>
+2018-08-01 14:06:35 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=175>
+2018-08-01 14:06:35 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=200>
+2018-08-01 14:06:35 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=225>
+2018-08-01 14:06:35 engine.py [line:158] INFO: Main Thread is over!
+2018-08-01 14:06:35 engine.py [line:113] INFO: ------------------------------------------------------------------------------------------------------------------------
+2018-08-01 14:06:35 engine.py [line:114] INFO: End time : 2018-08-01 14:06:35.193129
+2018-08-01 14:06:35 engine.py [line:116] INFO: Useing time : 0.040205
+2018-08-01 14:06:38 engine.py [line:105] INFO: Start time : 2018-08-01 14:06:38.197790
+2018-08-01 14:06:38 engine.py [line:106] INFO: ------------------------------------------------------------------------------------------------------------------------
+2018-08-01 14:06:38 scheduler.py [line:70] INFO: Filter request: [GET] <http://www.baidu.com>
+2018-08-01 14:06:38 scheduler.py [line:70] INFO: Filter request: [GET] <http://news.baidu.com/>
+2018-08-01 14:06:38 scheduler.py [line:70] INFO: Filter request: [GET] <http://www.baidu.com/>
+2018-08-01 14:06:38 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=0>
+2018-08-01 14:06:38 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=25>
+2018-08-01 14:06:38 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=50>
+2018-08-01 14:06:38 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=75>
+2018-08-01 14:06:38 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=100>
+2018-08-01 14:06:38 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=125>
+2018-08-01 14:06:38 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=150>
+2018-08-01 14:06:38 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=175>
+2018-08-01 14:06:38 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=200>
+2018-08-01 14:06:38 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=225>
+2018-08-01 14:06:38 engine.py [line:158] INFO: Main Thread is over!
+2018-08-01 14:06:38 engine.py [line:113] INFO: ------------------------------------------------------------------------------------------------------------------------
+2018-08-01 14:06:38 engine.py [line:114] INFO: End time : 2018-08-01 14:06:38.235615
+2018-08-01 14:06:38 engine.py [line:116] INFO: Useing time : 0.037825
+2018-08-01 14:06:41 engine.py [line:105] INFO: Start time : 2018-08-01 14:06:41.238727
+2018-08-01 14:06:41 engine.py [line:106] INFO: ------------------------------------------------------------------------------------------------------------------------
+2018-08-01 14:06:41 scheduler.py [line:70] INFO: Filter request: [GET] <http://www.baidu.com>
+2018-08-01 14:06:41 scheduler.py [line:70] INFO: Filter request: [GET] <http://news.baidu.com/>
+2018-08-01 14:06:41 scheduler.py [line:70] INFO: Filter request: [GET] <http://www.baidu.com/>
+2018-08-01 14:06:41 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=0>
+2018-08-01 14:06:41 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=25>
+2018-08-01 14:06:41 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=50>
+2018-08-01 14:06:41 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=75>
+2018-08-01 14:06:41 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=100>
+2018-08-01 14:06:41 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=125>
+2018-08-01 14:06:41 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=150>
+2018-08-01 14:06:41 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=175>
+2018-08-01 14:06:41 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=200>
+2018-08-01 14:06:41 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=225>
+2018-08-01 14:06:41 engine.py [line:158] INFO: Main Thread is over!
+2018-08-01 14:06:41 engine.py [line:113] INFO: ------------------------------------------------------------------------------------------------------------------------
+2018-08-01 14:06:41 engine.py [line:114] INFO: End time : 2018-08-01 14:06:41.274869
+2018-08-01 14:06:41 engine.py [line:116] INFO: Useing time : 0.036142
+2018-08-01 14:06:44 engine.py [line:105] INFO: Start time : 2018-08-01 14:06:44.278481
+2018-08-01 14:06:44 engine.py [line:106] INFO: ------------------------------------------------------------------------------------------------------------------------
+2018-08-01 14:06:44 scheduler.py [line:70] INFO: Filter request: [GET] <http://www.baidu.com>
+2018-08-01 14:06:44 scheduler.py [line:70] INFO: Filter request: [GET] <http://news.baidu.com/>
+2018-08-01 14:06:44 scheduler.py [line:70] INFO: Filter request: [GET] <http://www.baidu.com/>
+2018-08-01 14:06:44 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=0>
+2018-08-01 14:06:44 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=25>
+2018-08-01 14:06:44 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=50>
+2018-08-01 14:06:44 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=75>
+2018-08-01 14:06:44 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=100>
+2018-08-01 14:06:44 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=125>
+2018-08-01 14:06:44 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=150>
+2018-08-01 14:06:44 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=175>
+2018-08-01 14:06:44 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=200>
+2018-08-01 14:06:44 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=225>
+2018-08-01 14:06:44 engine.py [line:158] INFO: Main Thread is over!
+2018-08-01 14:06:44 engine.py [line:113] INFO: ------------------------------------------------------------------------------------------------------------------------
+2018-08-01 14:06:44 engine.py [line:114] INFO: End time : 2018-08-01 14:06:44.320315
+2018-08-01 14:06:44 engine.py [line:116] INFO: Useing time : 0.041834
+2018-08-01 14:06:47 engine.py [line:105] INFO: Start time : 2018-08-01 14:06:47.322577
+2018-08-01 14:06:47 engine.py [line:106] INFO: ------------------------------------------------------------------------------------------------------------------------
+2018-08-01 14:06:47 scheduler.py [line:70] INFO: Filter request: [GET] <http://www.baidu.com>
+2018-08-01 14:06:47 scheduler.py [line:70] INFO: Filter request: [GET] <http://news.baidu.com/>
+2018-08-01 14:06:47 scheduler.py [line:70] INFO: Filter request: [GET] <http://www.baidu.com/>
+2018-08-01 14:06:47 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=0>
+2018-08-01 14:06:47 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=25>
+2018-08-01 14:06:47 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=50>
+2018-08-01 14:06:47 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=75>
+2018-08-01 14:06:47 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=100>
+2018-08-01 14:06:47 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=125>
+2018-08-01 14:06:47 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=150>
+2018-08-01 14:06:47 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=175>
+2018-08-01 14:06:47 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=200>
+2018-08-01 14:06:47 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=225>
+2018-08-01 14:06:47 engine.py [line:158] INFO: Main Thread is over!
+2018-08-01 14:06:47 engine.py [line:113] INFO: ------------------------------------------------------------------------------------------------------------------------
+2018-08-01 14:06:47 engine.py [line:114] INFO: End time : 2018-08-01 14:06:47.368630
+2018-08-01 14:06:47 engine.py [line:116] INFO: Useing time : 0.046053
+2018-08-01 14:06:50 engine.py [line:105] INFO: Start time : 2018-08-01 14:06:50.371287
+2018-08-01 14:06:50 engine.py [line:106] INFO: ------------------------------------------------------------------------------------------------------------------------
+2018-08-01 14:06:50 scheduler.py [line:70] INFO: Filter request: [GET] <http://www.baidu.com>
+2018-08-01 14:06:50 scheduler.py [line:70] INFO: Filter request: [GET] <http://news.baidu.com/>
+2018-08-01 14:06:50 scheduler.py [line:70] INFO: Filter request: [GET] <http://www.baidu.com/>
+2018-08-01 14:06:50 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=0>
+2018-08-01 14:06:50 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=25>
+2018-08-01 14:06:50 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=50>
+2018-08-01 14:06:50 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=75>
+2018-08-01 14:06:50 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=100>
+2018-08-01 14:06:50 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=125>
+2018-08-01 14:06:50 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=150>
+2018-08-01 14:06:50 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=175>
+2018-08-01 14:06:50 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=200>
+2018-08-01 14:06:50 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=225>
+2018-08-01 14:06:50 engine.py [line:158] INFO: Main Thread is over!
+2018-08-01 14:06:50 engine.py [line:113] INFO: ------------------------------------------------------------------------------------------------------------------------
+2018-08-01 14:06:50 engine.py [line:114] INFO: End time : 2018-08-01 14:06:50.389310
+2018-08-01 14:06:50 engine.py [line:116] INFO: Useing time : 0.018023
+2018-08-01 14:06:53 engine.py [line:105] INFO: Start time : 2018-08-01 14:06:53.395290
+2018-08-01 14:06:53 engine.py [line:106] INFO: ------------------------------------------------------------------------------------------------------------------------
+2018-08-01 14:06:53 scheduler.py [line:70] INFO: Filter request: [GET] <http://www.baidu.com>
+2018-08-01 14:06:53 scheduler.py [line:70] INFO: Filter request: [GET] <http://news.baidu.com/>
+2018-08-01 14:06:53 scheduler.py [line:70] INFO: Filter request: [GET] <http://www.baidu.com/>
+2018-08-01 14:06:53 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=0>
+2018-08-01 14:06:53 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=25>
+2018-08-01 14:06:53 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=50>
+2018-08-01 14:06:53 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=75>
+2018-08-01 14:06:53 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=100>
+2018-08-01 14:06:53 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=125>
+2018-08-01 14:06:53 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=150>
+2018-08-01 14:06:53 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=175>
+2018-08-01 14:06:53 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=200>
+2018-08-01 14:06:53 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=225>
+2018-08-01 14:06:53 engine.py [line:158] INFO: Main Thread is over!
+2018-08-01 14:06:53 engine.py [line:113] INFO: ------------------------------------------------------------------------------------------------------------------------
+2018-08-01 14:06:53 engine.py [line:114] INFO: End time : 2018-08-01 14:06:53.444568
+2018-08-01 14:06:53 engine.py [line:116] INFO: Useing time : 0.049278
+2018-08-01 14:06:56 engine.py [line:105] INFO: Start time : 2018-08-01 14:06:56.445823
+2018-08-01 14:06:56 engine.py [line:106] INFO: ------------------------------------------------------------------------------------------------------------------------
+2018-08-01 14:06:56 scheduler.py [line:70] INFO: Filter request: [GET] <http://www.baidu.com>
+2018-08-01 14:06:56 scheduler.py [line:70] INFO: Filter request: [GET] <http://news.baidu.com/>
+2018-08-01 14:06:56 scheduler.py [line:70] INFO: Filter request: [GET] <http://www.baidu.com/>
+2018-08-01 14:06:56 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=0>
+2018-08-01 14:06:56 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=25>
+2018-08-01 14:06:56 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=50>
+2018-08-01 14:06:56 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=75>
+2018-08-01 14:06:56 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=100>
+2018-08-01 14:06:56 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=125>
+2018-08-01 14:06:56 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=150>
+2018-08-01 14:06:56 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=175>
+2018-08-01 14:06:56 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=200>
+2018-08-01 14:06:56 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=225>
+2018-08-01 14:06:56 engine.py [line:158] INFO: Main Thread is over!
+2018-08-01 14:06:56 engine.py [line:113] INFO: ------------------------------------------------------------------------------------------------------------------------
+2018-08-01 14:06:56 engine.py [line:114] INFO: End time : 2018-08-01 14:06:56.498150
+2018-08-01 14:06:56 engine.py [line:116] INFO: Useing time : 0.052327
+2018-08-01 14:06:59 engine.py [line:105] INFO: Start time : 2018-08-01 14:06:59.502850
+2018-08-01 14:06:59 engine.py [line:106] INFO: ------------------------------------------------------------------------------------------------------------------------
+2018-08-01 14:06:59 scheduler.py [line:70] INFO: Filter request: [GET] <http://www.baidu.com>
+2018-08-01 14:06:59 scheduler.py [line:70] INFO: Filter request: [GET] <http://news.baidu.com/>
+2018-08-01 14:06:59 scheduler.py [line:70] INFO: Filter request: [GET] <http://www.baidu.com/>
+2018-08-01 14:06:59 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=0>
+2018-08-01 14:06:59 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=25>
+2018-08-01 14:06:59 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=50>
+2018-08-01 14:06:59 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=75>
+2018-08-01 14:06:59 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=100>
+2018-08-01 14:06:59 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=125>
+2018-08-01 14:06:59 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=150>
+2018-08-01 14:06:59 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=175>
+2018-08-01 14:06:59 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=200>
+2018-08-01 14:06:59 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=225>
+2018-08-01 14:06:59 engine.py [line:158] INFO: Main Thread is over!
+2018-08-01 14:06:59 engine.py [line:113] INFO: ------------------------------------------------------------------------------------------------------------------------
+2018-08-01 14:06:59 engine.py [line:114] INFO: End time : 2018-08-01 14:06:59.544012
+2018-08-01 14:06:59 engine.py [line:116] INFO: Useing time : 0.041162
+2018-08-01 14:07:02 engine.py [line:105] INFO: Start time : 2018-08-01 14:07:02.549115
+2018-08-01 14:07:02 engine.py [line:106] INFO: ------------------------------------------------------------------------------------------------------------------------
+2018-08-01 14:07:02 scheduler.py [line:70] INFO: Filter request: [GET] <http://www.baidu.com>
+2018-08-01 14:07:02 scheduler.py [line:70] INFO: Filter request: [GET] <http://news.baidu.com/>
+2018-08-01 14:07:02 scheduler.py [line:70] INFO: Filter request: [GET] <http://www.baidu.com/>
+2018-08-01 14:07:02 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=0>
+2018-08-01 14:07:02 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=25>
+2018-08-01 14:07:02 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=50>
+2018-08-01 14:07:02 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=75>
+2018-08-01 14:07:02 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=100>
+2018-08-01 14:07:02 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=125>
+2018-08-01 14:07:02 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=150>
+2018-08-01 14:07:02 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=175>
+2018-08-01 14:07:02 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=200>
+2018-08-01 14:07:02 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=225>
+2018-08-01 14:07:02 engine.py [line:158] INFO: Main Thread is over!
+2018-08-01 14:07:02 engine.py [line:113] INFO: ------------------------------------------------------------------------------------------------------------------------
+2018-08-01 14:07:02 engine.py [line:114] INFO: End time : 2018-08-01 14:07:02.562405
+2018-08-01 14:07:02 engine.py [line:116] INFO: Useing time : 0.01329
+2018-08-01 14:10:28 scheduler.py [line:19] INFO: ROLE is None
+2018-08-01 14:10:29 engine.py [line:35] INFO: [Async Type]: coroutine
+2018-08-01 14:10:29 engine.py [line:105] INFO: Start time : 2018-08-01 14:10:29.047117
+2018-08-01 14:10:29 engine.py [line:106] INFO: ------------------------------------------------------------------------------------------------------------------------
+2018-08-01 14:10:29 scheduler.py [line:70] INFO: Filter request: [GET] <http://www.baidu.com/>
+2018-08-01 14:10:29 downloader.py [line:13] INFO: [Downloader] : Request [GET] <http://www.baidu.com>
+2018-08-01 14:10:29 connectionpool.py [line:213] INFO: Starting new HTTP connection (1): www.baidu.com
+2018-08-01 14:10:29 downloader.py [line:13] INFO: [Downloader] : Request [GET] <http://news.baidu.com/>
+2018-08-01 14:10:29 connectionpool.py [line:213] INFO: Starting new HTTP connection (1): news.baidu.com
+2018-08-01 14:10:29 downloader.py [line:13] INFO: [Downloader] : Request [GET] <https://movie.douban.com/top250?start=0>
+2018-08-01 14:10:29 connectionpool.py [line:788] INFO: Starting new HTTPS connection (1): movie.douban.com
+2018-08-01 14:10:29 downloader.py [line:37] INFO: [Downloader]: Response [200] <http://www.baidu.com/>
+2018-08-01 14:10:29 downloader.py [line:13] INFO: [Downloader] : Request [GET] <https://movie.douban.com/top250?start=25>
+2018-08-01 14:10:29 connectionpool.py [line:788] INFO: Starting new HTTPS connection (1): movie.douban.com
+2018-08-01 14:10:29 downloader.py [line:37] INFO: [Downloader]: Response [200] <http://news.baidu.com/>
+2018-08-01 14:10:31 downloader.py [line:13] INFO: [Downloader] : Request [GET] <https://movie.douban.com/top250?start=50>
+2018-08-01 14:10:31 connectionpool.py [line:788] INFO: Starting new HTTPS connection (1): movie.douban.com
+2018-08-01 14:10:31 downloader.py [line:37] INFO: [Downloader]: Response [200] <https://movie.douban.com/top250?start=25>
+2018-08-01 14:10:32 downloader.py [line:37] INFO: [Downloader]: Response [200] <https://movie.douban.com/top250?start=0>
+2018-08-01 14:10:32 downloader.py [line:13] INFO: [Downloader] : Request [GET] <https://movie.douban.com/top250?start=75>
+2018-08-01 14:10:32 connectionpool.py [line:788] INFO: Starting new HTTPS connection (1): movie.douban.com
+2018-08-01 14:10:32 downloader.py [line:13] INFO: [Downloader] : Request [GET] <https://movie.douban.com/top250?start=100>
+2018-08-01 14:10:32 connectionpool.py [line:788] INFO: Starting new HTTPS connection (1): movie.douban.com
+2018-08-01 14:10:33 downloader.py [line:37] INFO: [Downloader]: Response [200] <https://movie.douban.com/top250?start=50>
+2018-08-01 14:10:33 downloader.py [line:13] INFO: [Downloader] : Request [GET] <https://movie.douban.com/top250?start=125>
+2018-08-01 14:10:33 connectionpool.py [line:788] INFO: Starting new HTTPS connection (1): movie.douban.com
+2018-08-01 14:10:35 downloader.py [line:37] INFO: [Downloader]: Response [200] <https://movie.douban.com/top250?start=100>
+2018-08-01 14:10:35 downloader.py [line:13] INFO: [Downloader] : Request [GET] <https://movie.douban.com/top250?start=150>
+2018-08-01 14:10:35 connectionpool.py [line:788] INFO: Starting new HTTPS connection (1): movie.douban.com
+2018-08-01 14:10:35 downloader.py [line:37] INFO: [Downloader]: Response [200] <https://movie.douban.com/top250?start=75>
+2018-08-01 14:10:36 downloader.py [line:13] INFO: [Downloader] : Request [GET] <https://movie.douban.com/top250?start=175>
+2018-08-01 14:10:36 connectionpool.py [line:788] INFO: Starting new HTTPS connection (1): movie.douban.com
+2018-08-01 14:10:36 downloader.py [line:37] INFO: [Downloader]: Response [200] <https://movie.douban.com/top250?start=150>
+2018-08-01 14:10:36 downloader.py [line:13] INFO: [Downloader] : Request [GET] <https://movie.douban.com/top250?start=200>
+2018-08-01 14:10:36 connectionpool.py [line:788] INFO: Starting new HTTPS connection (1): movie.douban.com
+2018-08-01 14:10:36 downloader.py [line:37] INFO: [Downloader]: Response [200] <https://movie.douban.com/top250?start=125>
+2018-08-01 14:10:37 downloader.py [line:37] INFO: [Downloader]: Response [200] <https://movie.douban.com/top250?start=175>
+2018-08-01 14:10:37 downloader.py [line:13] INFO: [Downloader] : Request [GET] <https://movie.douban.com/top250?start=225>
+2018-08-01 14:10:37 connectionpool.py [line:788] INFO: Starting new HTTPS connection (1): movie.douban.com
+2018-08-01 14:10:38 downloader.py [line:37] INFO: [Downloader]: Response [200] <https://movie.douban.com/top250?start=225>
+2018-08-01 14:10:38 downloader.py [line:37] INFO: [Downloader]: Response [200] <https://movie.douban.com/top250?start=200>
+2018-08-01 14:10:39 engine.py [line:158] INFO: Main Thread is over!
+2018-08-01 14:10:39 engine.py [line:113] INFO: ------------------------------------------------------------------------------------------------------------------------
+2018-08-01 14:10:39 engine.py [line:114] INFO: End time : 2018-08-01 14:10:39.115163
+2018-08-01 14:10:39 engine.py [line:116] INFO: Useing time : 10.068046
+2018-08-01 14:10:42 engine.py [line:105] INFO: Start time : 2018-08-01 14:10:42.117518
+2018-08-01 14:10:42 engine.py [line:106] INFO: ------------------------------------------------------------------------------------------------------------------------
+2018-08-01 14:10:42 scheduler.py [line:70] INFO: Filter request: [GET] <http://www.baidu.com>
+2018-08-01 14:10:42 scheduler.py [line:70] INFO: Filter request: [GET] <http://news.baidu.com/>
+2018-08-01 14:10:42 scheduler.py [line:70] INFO: Filter request: [GET] <http://www.baidu.com/>
+2018-08-01 14:10:42 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=0>
+2018-08-01 14:10:42 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=25>
+2018-08-01 14:10:42 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=50>
+2018-08-01 14:10:42 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=75>
+2018-08-01 14:10:42 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=100>
+2018-08-01 14:10:42 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=125>
+2018-08-01 14:10:42 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=150>
+2018-08-01 14:10:42 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=175>
+2018-08-01 14:10:42 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=200>
+2018-08-01 14:10:42 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=225>
+2018-08-01 14:10:42 engine.py [line:158] INFO: Main Thread is over!
+2018-08-01 14:10:42 engine.py [line:113] INFO: ------------------------------------------------------------------------------------------------------------------------
+2018-08-01 14:10:42 engine.py [line:114] INFO: End time : 2018-08-01 14:10:42.158385
+2018-08-01 14:10:42 engine.py [line:116] INFO: Useing time : 0.040867
+2018-08-01 14:10:45 engine.py [line:105] INFO: Start time : 2018-08-01 14:10:45.161265
+2018-08-01 14:10:45 engine.py [line:106] INFO: ------------------------------------------------------------------------------------------------------------------------
+2018-08-01 14:10:45 scheduler.py [line:70] INFO: Filter request: [GET] <http://www.baidu.com>
+2018-08-01 14:10:45 scheduler.py [line:70] INFO: Filter request: [GET] <http://news.baidu.com/>
+2018-08-01 14:10:45 scheduler.py [line:70] INFO: Filter request: [GET] <http://www.baidu.com/>
+2018-08-01 14:10:45 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=0>
+2018-08-01 14:10:45 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=25>
+2018-08-01 14:10:45 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=50>
+2018-08-01 14:10:45 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=75>
+2018-08-01 14:10:45 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=100>
+2018-08-01 14:10:45 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=125>
+2018-08-01 14:10:45 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=150>
+2018-08-01 14:10:45 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=175>
+2018-08-01 14:10:45 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=200>
+2018-08-01 14:10:45 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=225>
+2018-08-01 14:10:45 engine.py [line:158] INFO: Main Thread is over!
+2018-08-01 14:10:45 engine.py [line:113] INFO: ------------------------------------------------------------------------------------------------------------------------
+2018-08-01 14:10:45 engine.py [line:114] INFO: End time : 2018-08-01 14:10:45.201253
+2018-08-01 14:10:45 engine.py [line:116] INFO: Useing time : 0.039988
+2018-08-01 14:10:48 engine.py [line:105] INFO: Start time : 2018-08-01 14:10:48.203148
+2018-08-01 14:10:48 engine.py [line:106] INFO: ------------------------------------------------------------------------------------------------------------------------
+2018-08-01 14:10:48 scheduler.py [line:70] INFO: Filter request: [GET] <http://www.baidu.com>
+2018-08-01 14:10:48 scheduler.py [line:70] INFO: Filter request: [GET] <http://news.baidu.com/>
+2018-08-01 14:10:48 scheduler.py [line:70] INFO: Filter request: [GET] <http://www.baidu.com/>
+2018-08-01 14:10:48 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=0>
+2018-08-01 14:10:48 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=25>
+2018-08-01 14:10:48 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=50>
+2018-08-01 14:10:48 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=75>
+2018-08-01 14:10:48 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=100>
+2018-08-01 14:10:48 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=125>
+2018-08-01 14:10:48 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=150>
+2018-08-01 14:10:48 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=175>
+2018-08-01 14:10:48 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=200>
+2018-08-01 14:10:48 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=225>
+2018-08-01 14:10:48 engine.py [line:158] INFO: Main Thread is over!
+2018-08-01 14:10:48 engine.py [line:113] INFO: ------------------------------------------------------------------------------------------------------------------------
+2018-08-01 14:10:48 engine.py [line:114] INFO: End time : 2018-08-01 14:10:48.237500
+2018-08-01 14:10:48 engine.py [line:116] INFO: Useing time : 0.034352
+2018-08-01 14:10:51 engine.py [line:105] INFO: Start time : 2018-08-01 14:10:51.241889
+2018-08-01 14:10:51 engine.py [line:106] INFO: ------------------------------------------------------------------------------------------------------------------------
+2018-08-01 14:10:51 scheduler.py [line:70] INFO: Filter request: [GET] <http://www.baidu.com>
+2018-08-01 14:10:51 scheduler.py [line:70] INFO: Filter request: [GET] <http://news.baidu.com/>
+2018-08-01 14:10:51 scheduler.py [line:70] INFO: Filter request: [GET] <http://www.baidu.com/>
+2018-08-01 14:10:51 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=0>
+2018-08-01 14:10:51 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=25>
+2018-08-01 14:10:51 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=50>
+2018-08-01 14:10:51 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=75>
+2018-08-01 14:10:51 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=100>
+2018-08-01 14:10:51 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=125>
+2018-08-01 14:10:51 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=150>
+2018-08-01 14:10:51 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=175>
+2018-08-01 14:10:51 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=200>
+2018-08-01 14:10:51 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=225>
+2018-08-01 14:10:51 engine.py [line:158] INFO: Main Thread is over!
+2018-08-01 14:10:51 engine.py [line:113] INFO: ------------------------------------------------------------------------------------------------------------------------
+2018-08-01 14:10:51 engine.py [line:114] INFO: End time : 2018-08-01 14:10:51.285790
+2018-08-01 14:10:51 engine.py [line:116] INFO: Useing time : 0.043901
+2018-08-01 14:10:54 engine.py [line:105] INFO: Start time : 2018-08-01 14:10:54.288811
+2018-08-01 14:10:54 engine.py [line:106] INFO: ------------------------------------------------------------------------------------------------------------------------
+2018-08-01 14:10:54 scheduler.py [line:70] INFO: Filter request: [GET] <http://www.baidu.com>
+2018-08-01 14:10:54 scheduler.py [line:70] INFO: Filter request: [GET] <http://news.baidu.com/>
+2018-08-01 14:10:54 scheduler.py [line:70] INFO: Filter request: [GET] <http://www.baidu.com/>
+2018-08-01 14:10:54 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=0>
+2018-08-01 14:10:54 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=25>
+2018-08-01 14:10:54 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=50>
+2018-08-01 14:10:54 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=75>
+2018-08-01 14:10:54 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=100>
+2018-08-01 14:10:54 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=125>
+2018-08-01 14:10:54 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=150>
+2018-08-01 14:10:54 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=175>
+2018-08-01 14:10:54 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=200>
+2018-08-01 14:10:54 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=225>
+2018-08-01 14:10:54 engine.py [line:158] INFO: Main Thread is over!
+2018-08-01 14:10:54 engine.py [line:113] INFO: ------------------------------------------------------------------------------------------------------------------------
+2018-08-01 14:10:54 engine.py [line:114] INFO: End time : 2018-08-01 14:10:54.332732
+2018-08-01 14:10:54 engine.py [line:116] INFO: Useing time : 0.043921
+2018-08-01 14:10:57 engine.py [line:105] INFO: Start time : 2018-08-01 14:10:57.335664
+2018-08-01 14:10:57 engine.py [line:106] INFO: ------------------------------------------------------------------------------------------------------------------------
+2018-08-01 14:10:57 scheduler.py [line:70] INFO: Filter request: [GET] <http://www.baidu.com>
+2018-08-01 14:10:57 scheduler.py [line:70] INFO: Filter request: [GET] <http://news.baidu.com/>
+2018-08-01 14:10:57 scheduler.py [line:70] INFO: Filter request: [GET] <http://www.baidu.com/>
+2018-08-01 14:10:57 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=0>
+2018-08-01 14:10:57 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=25>
+2018-08-01 14:10:57 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=50>
+2018-08-01 14:10:57 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=75>
+2018-08-01 14:10:57 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=100>
+2018-08-01 14:10:57 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=125>
+2018-08-01 14:10:57 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=150>
+2018-08-01 14:10:57 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=175>
+2018-08-01 14:10:57 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=200>
+2018-08-01 14:10:57 scheduler.py [line:70] INFO: Filter request: [GET] <https://movie.douban.com/top250?start=225>
+2018-08-01 14:10:57 engine.py [line:158] INFO: Main Thread is over!
+2018-08-01 14:10:57 engine.py [line:113] INFO: ------------------------------------------------------------------------------------------------------------------------
+2018-08-01 14:10:57 engine.py [line:114] INFO: End time : 2018-08-01 14:10:57.373354
+2018-08-01 14:10:57 engine.py [line:116] INFO: Useing time : 0.03769
+2018-08-01 14:11:59 scheduler.py [line:19] INFO: ROLE is None
+2018-08-01 14:12:00 engine.py [line:35] INFO: [Async Type]: coroutine
+2018-08-01 14:12:00 engine.py [line:105] INFO: Start time : 2018-08-01 14:12:00.663182
+2018-08-01 14:12:00 engine.py [line:106] INFO: ------------------------------------------------------------------------------------------------------------------------
+2018-08-01 14:12:00 downloader.py [line:13] INFO: [Downloader] : Request [GET] <http://www.baidu.com>
+2018-08-01 14:12:00 connectionpool.py [line:213] INFO: Starting new HTTP connection (1): www.baidu.com
+2018-08-01 14:12:00 downloader.py [line:13] INFO: [Downloader] : Request [GET] <http://news.baidu.com/>
+2018-08-01 14:12:00 connectionpool.py [line:213] INFO: Starting new HTTP connection (1): news.baidu.com
+2018-08-01 14:12:00 downloader.py [line:13] INFO: [Downloader] : Request [GET] <http://www.baidu.com/>
+2018-08-01 14:12:00 connectionpool.py [line:213] INFO: Starting new HTTP connection (1): www.baidu.com
+2018-08-01 14:12:00 downloader.py [line:37] INFO: [Downloader]: Response [200] <http://www.baidu.com/>
+2018-08-01 14:12:00 downloader.py [line:13] INFO: [Downloader] : Request [GET] <https://movie.douban.com/top250?start=0>
+2018-08-01 14:12:00 connectionpool.py [line:788] INFO: Starting new HTTPS connection (1): movie.douban.com
+2018-08-01 14:12:00 downloader.py [line:37] INFO: [Downloader]: Response [200] <http://www.baidu.com/>
+2018-08-01 14:12:00 downloader.py [line:13] INFO: [Downloader] : Request [GET] <https://movie.douban.com/top250?start=25>
+2018-08-01 14:12:00 connectionpool.py [line:788] INFO: Starting new HTTPS connection (1): movie.douban.com
+2018-08-01 14:12:00 downloader.py [line:37] INFO: [Downloader]: Response [200] <http://news.baidu.com/>
+2018-08-01 14:12:01 downloader.py [line:13] INFO: [Downloader] : Request [GET] <https://movie.douban.com/top250?start=50>
+2018-08-01 14:12:01 connectionpool.py [line:788] INFO: Starting new HTTPS connection (1): movie.douban.com
+2018-08-01 14:12:01 downloader.py [line:37] INFO: [Downloader]: Response [200] <https://movie.douban.com/top250?start=25>
+2018-08-01 14:12:02 downloader.py [line:13] INFO: [Downloader] : Request [GET] <https://movie.douban.com/top250?start=75>
+2018-08-01 14:12:02 connectionpool.py [line:788] INFO: Starting new HTTPS connection (1): movie.douban.com
+2018-08-01 14:12:02 downloader.py [line:37] INFO: [Downloader]: Response [200] <https://movie.douban.com/top250?start=0>
+2018-08-01 14:12:03 downloader.py [line:13] INFO: [Downloader] : Request [GET] <https://movie.douban.com/top250?start=100>
+2018-08-01 14:12:03 connectionpool.py [line:788] INFO: Starting new HTTPS connection (1): movie.douban.com
+2018-08-01 14:12:03 downloader.py [line:37] INFO: [Downloader]: Response [200] <https://movie.douban.com/top250?start=50>
+2018-08-01 14:12:04 downloader.py [line:13] INFO: [Downloader] : Request [GET] <https://movie.douban.com/top250?start=125>
+2018-08-01 14:12:04 connectionpool.py [line:788] INFO: Starting new HTTPS connection (1): movie.douban.com
+2018-08-01 14:12:04 downloader.py [line:37] INFO: [Downloader]: Response [200] <https://movie.douban.com/top250?start=75>
+2018-08-01 14:12:05 downloader.py [line:13] INFO: [Downloader] : Request [GET] <https://movie.douban.com/top250?start=150>
+2018-08-01 14:12:05 connectionpool.py [line:788] INFO: Starting new HTTPS connection (1): movie.douban.com
+2018-08-01 14:12:05 downloader.py [line:37] INFO: [Downloader]: Response [200] <https://movie.douban.com/top250?start=125>
+2018-08-01 14:12:05 downloader.py [line:37] INFO: [Downloader]: Response [200] <https://movie.douban.com/top250?start=100>
+2018-08-01 14:12:06 downloader.py [line:13] INFO: [Downloader] : Request [GET] <https://movie.douban.com/top250?start=175>
+2018-08-01 14:12:06 connectionpool.py [line:788] INFO: Starting new HTTPS connection (1): movie.douban.com
+2018-08-01 14:12:06 downloader.py [line:13] INFO: [Downloader] : Request [GET] <https://movie.douban.com/top250?start=200>
+2018-08-01 14:12:06 connectionpool.py [line:788] INFO: Starting new HTTPS connection (1): movie.douban.com
+2018-08-01 14:12:06 downloader.py [line:37] INFO: [Downloader]: Response [200] <https://movie.douban.com/top250?start=175>
+2018-08-01 14:12:07 downloader.py [line:13] INFO: [Downloader] : Request [GET] <https://movie.douban.com/top250?start=225>
+2018-08-01 14:12:07 connectionpool.py [line:788] INFO: Starting new HTTPS connection (1): movie.douban.com
+2018-08-01 14:12:07 downloader.py [line:37] INFO: [Downloader]: Response [200] <https://movie.douban.com/top250?start=200>
+2018-08-01 14:12:07 downloader.py [line:37] INFO: [Downloader]: Response [200] <https://movie.douban.com/top250?start=150>
+2018-08-01 14:12:09 downloader.py [line:37] INFO: [Downloader]: Response [200] <https://movie.douban.com/top250?start=225>
+2018-08-01 14:12:09 engine.py [line:158] INFO: Main Thread is over!
+2018-08-01 14:12:09 engine.py [line:113] INFO: ------------------------------------------------------------------------------------------------------------------------
+2018-08-01 14:12:09 engine.py [line:114] INFO: End time : 2018-08-01 14:12:09.892509
+2018-08-01 14:12:09 engine.py [line:116] INFO: Useing time : 9.229327
+2018-08-01 14:12:12 engine.py [line:105] INFO: Start time : 2018-08-01 14:12:12.895482
+2018-08-01 14:12:12 engine.py [line:106] INFO: ------------------------------------------------------------------------------------------------------------------------
+2018-08-01 14:12:12 downloader.py [line:13] INFO: [Downloader] : Request [GET] <http://www.baidu.com>
+2018-08-01 14:12:12 connectionpool.py [line:213] INFO: Starting new HTTP connection (1): www.baidu.com
+2018-08-01 14:12:12 downloader.py [line:13] INFO: [Downloader] : Request [GET] <http://news.baidu.com/>
+2018-08-01 14:12:12 connectionpool.py [line:213] INFO: Starting new HTTP connection (1): news.baidu.com
+2018-08-01 14:12:12 downloader.py [line:13] INFO: [Downloader] : Request [GET] <http://www.baidu.com/>
+2018-08-01 14:12:12 connectionpool.py [line:213] INFO: Starting new HTTP connection (1): www.baidu.com
+2018-08-01 14:12:13 downloader.py [line:37] INFO: [Downloader]: Response [200] <http://www.baidu.com/>
+2018-08-01 14:12:13 downloader.py [line:37] INFO: [Downloader]: Response [200] <http://www.baidu.com/>
+2018-08-01 14:12:13 downloader.py [line:37] INFO: [Downloader]: Response [200] <http://news.baidu.com/>
+2018-08-02 20:53:27 scheduler.py [line:19] INFO: ROLE is None
+2018-08-02 20:53:28 engine.py [line:35] INFO: [Async Type]: coroutine
+2018-08-02 20:53:28 engine.py [line:105] INFO: Start time : 2018-08-02 20:53:28.572028
+2018-08-02 20:53:28 engine.py [line:106] INFO: ------------------------------------------------------------------------------------------------------------------------
+2018-08-02 20:53:28 downloader.py [line:13] INFO: [Downloader] : Request [GET] <http://www.baidu.com>
+2018-08-02 20:53:28 connectionpool.py [line:213] INFO: Starting new HTTP connection (1): www.baidu.com
+2018-08-02 20:53:28 downloader.py [line:13] INFO: [Downloader] : Request [GET] <http://news.baidu.com/>
+2018-08-02 20:53:28 connectionpool.py [line:213] INFO: Starting new HTTP connection (1): news.baidu.com
+2018-08-02 20:53:28 downloader.py [line:13] INFO: [Downloader] : Request [GET] <http://www.baidu.com/>
+2018-08-02 20:53:28 connectionpool.py [line:213] INFO: Starting new HTTP connection (1): www.baidu.com
+2018-08-02 20:53:28 downloader.py [line:37] INFO: [Downloader]: Response [200] <http://www.baidu.com/>
+2018-08-02 20:53:28 downloader.py [line:13] INFO: [Downloader] : Request [GET] <https://movie.douban.com/top250?start=0>
+2018-08-02 20:53:28 connectionpool.py [line:788] INFO: Starting new HTTPS connection (1): movie.douban.com
+2018-08-02 20:53:28 downloader.py [line:37] INFO: [Downloader]: Response [200] <http://news.baidu.com/>
+2018-08-02 20:53:29 downloader.py [line:37] INFO: [Downloader]: Response [200] <http://www.baidu.com/>
+2018-08-02 20:53:29 downloader.py [line:13] INFO: [Downloader] : Request [GET] <https://movie.douban.com/top250?start=25>
+2018-08-02 20:53:29 connectionpool.py [line:788] INFO: Starting new HTTPS connection (1): movie.douban.com
+2018-08-02 20:53:29 downloader.py [line:13] INFO: [Downloader] : Request [GET] <https://movie.douban.com/top250?start=50>
+2018-08-02 20:53:29 connectionpool.py [line:788] INFO: Starting new HTTPS connection (1): movie.douban.com
+2018-08-02 20:53:29 downloader.py [line:37] INFO: [Downloader]: Response [200] <https://movie.douban.com/top250?start=0>
+2018-08-02 20:53:30 downloader.py [line:13] INFO: [Downloader] : Request [GET] <https://movie.douban.com/top250?start=75>
+2018-08-02 20:53:30 connectionpool.py [line:788] INFO: Starting new HTTPS connection (1): movie.douban.com
+2018-08-02 20:53:31 downloader.py [line:37] INFO: [Downloader]: Response [200] <https://movie.douban.com/top250?start=25>
+2018-08-02 20:53:32 downloader.py [line:13] INFO: [Downloader] : Request [GET] <https://movie.douban.com/top250?start=100>
+2018-08-02 20:53:32 connectionpool.py [line:788] INFO: Starting new HTTPS connection (1): movie.douban.com
+2018-08-02 20:53:32 downloader.py [line:37] INFO: [Downloader]: Response [200] <https://movie.douban.com/top250?start=50>
+2018-08-02 20:53:33 downloader.py [line:13] INFO: [Downloader] : Request [GET] <https://movie.douban.com/top250?start=125>
+2018-08-02 20:53:33 connectionpool.py [line:788] INFO: Starting new HTTPS connection (1): movie.douban.com
+2018-08-02 20:53:33 downloader.py [line:37] INFO: [Downloader]: Response [200] <https://movie.douban.com/top250?start=75>
+2018-08-02 20:53:33 downloader.py [line:13] INFO: [Downloader] : Request [GET] <https://movie.douban.com/top250?start=150>
+2018-08-02 20:53:33 connectionpool.py [line:788] INFO: Starting new HTTPS connection (1): movie.douban.com
+2018-08-02 20:53:36 downloader.py [line:37] INFO: [Downloader]: Response [200] <https://movie.douban.com/top250?start=150>
+2018-08-02 20:53:36 downloader.py [line:13] INFO: [Downloader] : Request [GET] <https://movie.douban.com/top250?start=175>
+2018-08-02 20:53:36 connectionpool.py [line:788] INFO: Starting new HTTPS connection (1): movie.douban.com
+2018-08-02 20:53:37 downloader.py [line:37] INFO: [Downloader]: Response [200] <https://movie.douban.com/top250?start=175>
+2018-08-02 20:53:37 downloader.py [line:13] INFO: [Downloader] : Request [GET] <https://movie.douban.com/top250?start=200>
+2018-08-02 20:53:37 connectionpool.py [line:788] INFO: Starting new HTTPS connection (1): movie.douban.com
+2018-08-02 20:53:38 downloader.py [line:37] INFO: [Downloader]: Response [200] <https://movie.douban.com/top250?start=200>
+2018-08-02 20:53:38 downloader.py [line:13] INFO: [Downloader] : Request [GET] <https://movie.douban.com/top250?start=225>
+2018-08-02 20:53:38 connectionpool.py [line:788] INFO: Starting new HTTPS connection (1): movie.douban.com
+2018-08-02 20:53:39 downloader.py [line:37] INFO: [Downloader]: Response [200] <https://movie.douban.com/top250?start=100>
+2018-08-02 20:53:39 downloader.py [line:37] INFO: [Downloader]: Response [200] <https://movie.douban.com/top250?start=225>
+2018-08-02 20:53:43 downloader.py [line:37] INFO: [Downloader]: Response [200] <https://movie.douban.com/top250?start=125>
+2018-08-02 20:53:44 engine.py [line:158] INFO: Main Thread is over!
+2018-08-02 20:53:44 engine.py [line:113] INFO: ------------------------------------------------------------------------------------------------------------------------
+2018-08-02 20:53:44 engine.py [line:114] INFO: End time : 2018-08-02 20:53:44.034630
+2018-08-02 20:53:44 engine.py [line:116] INFO: Useing time : 15.462602
+2018-08-02 20:53:47 engine.py [line:105] INFO: Start time : 2018-08-02 20:53:47.038082
+2018-08-02 20:53:47 engine.py [line:106] INFO: ------------------------------------------------------------------------------------------------------------------------
+2018-08-02 20:53:47 downloader.py [line:13] INFO: [Downloader] : Request [GET] <http://www.baidu.com>
+2018-08-02 20:53:47 connectionpool.py [line:213] INFO: Starting new HTTP connection (1): www.baidu.com
+2018-08-02 20:53:47 downloader.py [line:13] INFO: [Downloader] : Request [GET] <http://news.baidu.com/>
+2018-08-02 20:53:47 connectionpool.py [line:213] INFO: Starting new HTTP connection (1): news.baidu.com
+2018-08-02 20:53:47 downloader.py [line:13] INFO: [Downloader] : Request [GET] <http://www.baidu.com/>
+2018-08-02 20:53:47 connectionpool.py [line:213] INFO: Starting new HTTP connection (1): www.baidu.com
+2018-08-02 20:53:47 downloader.py [line:37] INFO: [Downloader]: Response [200] <http://www.baidu.com/>
+2018-08-02 20:53:47 downloader.py [line:37] INFO: [Downloader]: Response [200] <http://www.baidu.com/>
+2018-08-02 20:53:47 downloader.py [line:37] INFO: [Downloader]: Response [200] <http://news.baidu.com/>
+2018-08-02 20:55:40 scheduler.py [line:19] INFO: ROLE is None
+2018-08-02 20:55:40 engine.py [line:35] INFO: [Async Type]: coroutine
+2018-08-02 20:55:40 engine.py [line:105] INFO: Start time : 2018-08-02 20:55:40.226863
+2018-08-02 20:55:40 engine.py [line:106] INFO: ------------------------------------------------------------------------------------------------------------------------
+2018-08-02 20:55:40 scheduler.py [line:70] INFO: Filter request: [GET] <http://www.baidu.com/>
+2018-08-02 20:55:40 downloader.py [line:13] INFO: [Downloader] : Request [GET] <http://www.baidu.com>
+2018-08-02 20:55:40 connectionpool.py [line:213] INFO: Starting new HTTP connection (1): www.baidu.com
+2018-08-02 20:55:40 downloader.py [line:13] INFO: [Downloader] : Request [GET] <http://news.baidu.com/>
+2018-08-02 20:55:40 connectionpool.py [line:213] INFO: Starting new HTTP connection (1): news.baidu.com
+2018-08-02 20:55:40 downloader.py [line:13] INFO: [Downloader] : Request [GET] <https://movie.douban.com/top250?start=0>
+2018-08-02 20:55:40 connectionpool.py [line:788] INFO: Starting new HTTPS connection (1): movie.douban.com
+2018-08-02 20:55:40 downloader.py [line:37] INFO: [Downloader]: Response [200] <http://www.baidu.com/>
+2018-08-02 20:55:40 downloader.py [line:13] INFO: [Downloader] : Request [GET] <https://movie.douban.com/top250?start=25>
+2018-08-02 20:55:40 connectionpool.py [line:788] INFO: Starting new HTTPS connection (1): movie.douban.com
+2018-08-02 20:55:40 downloader.py [line:37] INFO: [Downloader]: Response [200] <http://news.baidu.com/>
+2018-08-02 20:55:41 downloader.py [line:13] INFO: [Downloader] : Request [GET] <https://movie.douban.com/top250?start=50>
+2018-08-02 20:55:41 connectionpool.py [line:788] INFO: Starting new HTTPS connection (1): movie.douban.com
+2018-08-02 20:55:41 downloader.py [line:37] INFO: [Downloader]: Response [200] <https://movie.douban.com/top250?start=50>
+2018-08-02 20:55:42 downloader.py [line:13] INFO: [Downloader] : Request [GET] <https://movie.douban.com/top250?start=75>
+2018-08-02 20:55:42 connectionpool.py [line:788] INFO: Starting new HTTPS connection (1): movie.douban.com
+2018-08-02 20:55:45 downloader.py [line:37] INFO: [Downloader]: Response [200] <https://movie.douban.com/top250?start=0>
+2018-08-02 20:55:46 downloader.py [line:13] INFO: [Downloader] : Request [GET] <https://movie.douban.com/top250?start=100>
+2018-08-02 20:55:46 connectionpool.py [line:788] INFO: Starting new HTTPS connection (1): movie.douban.com
+2018-08-02 20:55:46 downloader.py [line:37] INFO: [Downloader]: Response [200] <https://movie.douban.com/top250?start=25>
+2018-08-02 20:55:47 downloader.py [line:13] INFO: [Downloader] : Request [GET] <https://movie.douban.com/top250?start=125>
+2018-08-02 20:55:47 connectionpool.py [line:788] INFO: Starting new HTTPS connection (1): movie.douban.com
+2018-08-02 20:55:47 downloader.py [line:37] INFO: [Downloader]: Response [200] <https://movie.douban.com/top250?start=75>
+2018-08-02 20:55:48 downloader.py [line:13] INFO: [Downloader] : Request [GET] <https://movie.douban.com/top250?start=150>
+2018-08-02 20:55:48 connectionpool.py [line:788] INFO: Starting new HTTPS connection (1): movie.douban.com
+2018-08-02 20:55:51 downloader.py [line:37] INFO: [Downloader]: Response [200] <https://movie.douban.com/top250?start=125>
+2018-08-02 20:55:52 downloader.py [line:13] INFO: [Downloader] : Request [GET] <https://movie.douban.com/top250?start=175>
+2018-08-02 20:55:52 connectionpool.py [line:788] INFO: Starting new HTTPS connection (1): movie.douban.com
+2018-08-02 20:55:54 downloader.py [line:37] INFO: [Downloader]: Response [200] <https://movie.douban.com/top250?start=175>
+2018-08-02 20:55:55 downloader.py [line:13] INFO: [Downloader] : Request [GET] <https://movie.douban.com/top250?start=200>
+2018-08-02 20:55:55 connectionpool.py [line:788] INFO: Starting new HTTPS connection (1): movie.douban.com
+2018-08-02 20:55:56 downloader.py [line:37] INFO: [Downloader]: Response [200] <https://movie.douban.com/top250?start=100>
+2018-08-02 20:55:57 downloader.py [line:13] INFO: [Downloader] : Request [GET] <https://movie.douban.com/top250?start=225>
+2018-08-02 20:55:57 connectionpool.py [line:788] INFO: Starting new HTTPS connection (1): movie.douban.com
+2018-08-02 20:55:57 downloader.py [line:37] INFO: [Downloader]: Response [200] <https://movie.douban.com/top250?start=150>
+2018-08-02 20:55:58 downloader.py [line:37] INFO: [Downloader]: Response [200] <https://movie.douban.com/top250?start=225>
+2018-08-02 20:56:02 downloader.py [line:37] INFO: [Downloader]: Response [200] <https://movie.douban.com/top250?start=200>
+2018-08-02 20:56:03 engine.py [line:158] INFO: Main Thread is over!
+2018-08-02 20:56:03 engine.py [line:113] INFO: ------------------------------------------------------------------------------------------------------------------------
+2018-08-02 20:56:03 engine.py [line:114] INFO: End time : 2018-08-02 20:56:03.464004
+2018-08-02 20:56:03 engine.py [line:116] INFO: Useing time : 23.237141
+2018-08-02 20:56:06 engine.py [line:105] INFO: Start time : 2018-08-02 20:56:06.465945
+2018-08-02 20:56:06 engine.py [line:106] INFO: ------------------------------------------------------------------------------------------------------------------------
+2018-08-02 20:56:06 scheduler.py [line:70] INFO: Filter request: [GET] <http://www.baidu.com>
+2018-08-02 20:56:06 scheduler.py [line:70] INFO: Filter request: [GET] <http://news.baidu.com/>
+2018-08-02 20:56:06 scheduler.py [line:70] INFO: Filter request: [GET] <http://www.baidu.com/>
+2018-08-02 20:56:06 downloader.py [line:13] INFO: [Downloader] : Request [GET] <https://movie.douban.com/top250?start=0>
+2018-08-02 20:56:06 connectionpool.py [line:788] INFO: Starting new HTTPS connection (1): movie.douban.com
+2018-08-02 20:56:06 downloader.py [line:13] INFO: [Downloader] : Request [GET] <https://movie.douban.com/top250?start=25>
+2018-08-02 20:56:06 connectionpool.py [line:788] INFO: Starting new HTTPS connection (1): movie.douban.com
+2018-08-02 20:56:06 downloader.py [line:13] INFO: [Downloader] : Request [GET] <https://movie.douban.com/top250?start=50>
+2018-08-02 20:56:06 connectionpool.py [line:788] INFO: Starting new HTTPS connection (1): movie.douban.com
+2018-08-02 20:56:06 downloader.py [line:37] INFO: [Downloader]: Response [200] <https://movie.douban.com/top250?start=25>
+2018-08-02 20:56:07 downloader.py [line:37] INFO: [Downloader]: Response [200] <https://movie.douban.com/top250?start=50>
+2018-08-02 20:56:08 downloader.py [line:37] INFO: [Downloader]: Response [200] <https://movie.douban.com/top250?start=0>
+2018-08-02 21:51:02 scheduler.py [line:24] INFO: ROLE is slave
+2018-08-02 21:51:03 engine.py [line:35] INFO: [Async Type]: coroutine
+2018-08-02 21:51:03 engine.py [line:105] INFO: Start time : 2018-08-02 21:51:03.326024
+2018-08-02 21:51:03 engine.py [line:106] INFO: ------------------------------------------------------------------------------------------------------------------------
+2018-08-02 21:51:14 scheduler.py [line:24] INFO: ROLE is slave
+2018-08-02 21:51:15 engine.py [line:35] INFO: [Async Type]: coroutine
+2018-08-02 21:51:15 engine.py [line:105] INFO: Start time : 2018-08-02 21:51:15.096811
+2018-08-02 21:51:15 engine.py [line:106] INFO: ------------------------------------------------------------------------------------------------------------------------
+2018-08-02 21:51:35 scheduler.py [line:24] INFO: ROLE is master
+2018-08-02 21:51:35 engine.py [line:35] INFO: [Async Type]: coroutine
+2018-08-02 21:51:35 engine.py [line:105] INFO: Start time : 2018-08-02 21:51:35.716118
+2018-08-02 21:51:35 engine.py [line:106] INFO: ------------------------------------------------------------------------------------------------------------------------
+2018-08-02 21:51:35 scheduler.py [line:70] INFO: Filter request: [GET] <http://www.baidu.com/>
+2018-08-02 21:51:35 downloader.py [line:13] INFO: [Downloader] : Request [GET] <http://www.baidu.com>
+2018-08-02 21:51:35 downloader.py [line:13] INFO: [Downloader] : Request [GET] <http://news.baidu.com/>
+2018-08-02 21:51:35 connectionpool.py [line:213] INFO: Starting new HTTP connection (1): www.baidu.com
+2018-08-02 21:51:35 connectionpool.py [line:213] INFO: Starting new HTTP connection (1): news.baidu.com
+2018-08-02 21:51:35 downloader.py [line:13] INFO: [Downloader] : Request [GET] <https://movie.douban.com/top250?start=0>
+2018-08-02 21:51:35 downloader.py [line:13] INFO: [Downloader] : Request [GET] <https://movie.douban.com/top250?start=25>
+2018-08-02 21:51:35 connectionpool.py [line:788] INFO: Starting new HTTPS connection (1): movie.douban.com
+2018-08-02 21:51:35 connectionpool.py [line:788] INFO: Starting new HTTPS connection (1): movie.douban.com
+2018-08-02 21:51:35 downloader.py [line:13] INFO: [Downloader] : Request [GET] <https://movie.douban.com/top250?start=50>
+2018-08-02 21:51:35 downloader.py [line:13] INFO: [Downloader] : Request [GET] <https://movie.douban.com/top250?start=75>
+2018-08-02 21:51:35 connectionpool.py [line:788] INFO: Starting new HTTPS connection (1): movie.douban.com
+2018-08-02 21:51:35 connectionpool.py [line:788] INFO: Starting new HTTPS connection (1): movie.douban.com
+2018-08-02 21:51:35 downloader.py [line:37] INFO: [Downloader]: Response [200] <http://www.baidu.com/>
+2018-08-02 21:51:35 downloader.py [line:13] INFO: [Downloader] : Request [GET] <https://movie.douban.com/top250?start=100>
+2018-08-02 21:51:35 connectionpool.py [line:788] INFO: Starting new HTTPS connection (1): movie.douban.com
+2018-08-02 21:51:36 downloader.py [line:37] INFO: [Downloader]: Response [200] <http://news.baidu.com/>
+2018-08-02 21:51:37 downloader.py [line:13] INFO: [Downloader] : Request [GET] <https://movie.douban.com/top250?start=125>
+2018-08-02 21:51:37 connectionpool.py [line:788] INFO: Starting new HTTPS connection (1): movie.douban.com
+2018-08-02 21:51:37 downloader.py [line:37] INFO: [Downloader]: Response [200] <https://movie.douban.com/top250?start=0>
+2018-08-02 21:51:38 downloader.py [line:13] INFO: [Downloader] : Request [GET] <https://movie.douban.com/top250?start=150>
+2018-08-02 21:51:38 connectionpool.py [line:788] INFO: Starting new HTTPS connection (1): movie.douban.com
+2018-08-02 21:51:38 downloader.py [line:37] INFO: [Downloader]: Response [200] <https://movie.douban.com/top250?start=25>
+2018-08-02 21:51:38 downloader.py [line:37] INFO: [Downloader]: Response [200] <https://movie.douban.com/top250?start=125>
+2018-08-02 21:51:39 downloader.py [line:13] INFO: [Downloader] : Request [GET] <https://movie.douban.com/top250?start=175>
+2018-08-02 21:51:39 connectionpool.py [line:788] INFO: Starting new HTTPS connection (1): movie.douban.com
+2018-08-02 21:51:39 downloader.py [line:37] INFO: [Downloader]: Response [200] <https://movie.douban.com/top250?start=75>
+2018-08-02 21:51:40 downloader.py [line:13] INFO: [Downloader] : Request [GET] <https://movie.douban.com/top250?start=200>
+2018-08-02 21:51:40 connectionpool.py [line:788] INFO: Starting new HTTPS connection (1): movie.douban.com
+2018-08-02 21:51:40 downloader.py [line:13] INFO: [Downloader] : Request [GET] <https://movie.douban.com/top250?start=225>
+2018-08-02 21:51:40 connectionpool.py [line:788] INFO: Starting new HTTPS connection (1): movie.douban.com
+2018-08-02 21:51:43 downloader.py [line:37] INFO: [Downloader]: Response [200] <https://movie.douban.com/top250?start=50>
+2018-08-02 21:51:43 downloader.py [line:37] INFO: [Downloader]: Response [200] <https://movie.douban.com/top250?start=100>
+2018-08-02 21:51:44 downloader.py [line:37] INFO: [Downloader]: Response [200] <https://movie.douban.com/top250?start=150>
+2018-08-02 21:51:49 downloader.py [line:37] INFO: [Downloader]: Response [200] <https://movie.douban.com/top250?start=175>
+2018-08-02 21:51:50 downloader.py [line:37] INFO: [Downloader]: Response [200] <https://movie.douban.com/top250?start=200>
+2018-08-02 21:51:55 downloader.py [line:37] INFO: [Downloader]: Response [200] <https://movie.douban.com/top250?start=225>
+2018-08-02 21:57:41 scheduler.py [line:24] INFO: ROLE is slave
+2018-08-02 21:57:41 engine.py [line:35] INFO: [Async Type]: coroutine
+2018-08-02 21:57:41 engine.py [line:105] INFO: Start time : 2018-08-02 21:57:41.454414
+2018-08-02 21:57:41 engine.py [line:106] INFO: ------------------------------------------------------------------------------------------------------------------------
+2018-08-02 21:57:50 scheduler.py [line:24] INFO: ROLE is slave
+2018-08-02 21:57:50 engine.py [line:35] INFO: [Async Type]: coroutine
+2018-08-02 21:57:50 engine.py [line:105] INFO: Start time : 2018-08-02 21:57:50.895668
+2018-08-02 21:57:50 engine.py [line:106] INFO: ------------------------------------------------------------------------------------------------------------------------
+2018-08-02 21:58:37 scheduler.py [line:24] INFO: ROLE is master
+2018-08-02 21:58:37 engine.py [line:35] INFO: [Async Type]: coroutine
+2018-08-02 21:58:37 engine.py [line:105] INFO: Start time : 2018-08-02 21:58:37.510012
+2018-08-02 21:58:37 engine.py [line:106] INFO: ------------------------------------------------------------------------------------------------------------------------
+2018-08-02 21:58:37 downloader.py [line:13] INFO: [Downloader] : Request [GET] <http://www.baidu.com>
+2018-08-02 21:58:37 connectionpool.py [line:213] INFO: Starting new HTTP connection (1): www.baidu.com
+2018-08-02 21:58:37 downloader.py [line:13] INFO: [Downloader] : Request [GET] <http://news.baidu.com/>
+2018-08-02 21:58:37 connectionpool.py [line:213] INFO: Starting new HTTP connection (1): news.baidu.com
+2018-08-02 21:58:37 downloader.py [line:13] INFO: [Downloader] : Request [GET] <http://www.baidu.com/>
+2018-08-02 21:58:37 connectionpool.py [line:213] INFO: Starting new HTTP connection (1): www.baidu.com
+2018-08-02 21:58:37 downloader.py [line:37] INFO: [Downloader]: Response [200] <http://www.baidu.com/>
+2018-08-02 21:58:37 downloader.py [line:13] INFO: [Downloader] : Request [GET] <https://movie.douban.com/top250?start=0>
+2018-08-02 21:58:37 connectionpool.py [line:788] INFO: Starting new HTTPS connection (1): movie.douban.com
+2018-08-02 21:58:37 downloader.py [line:37] INFO: [Downloader]: Response [200] <http://www.baidu.com/>
+2018-08-02 21:58:37 downloader.py [line:13] INFO: [Downloader] : Request [GET] <https://movie.douban.com/top250?start=25>
+2018-08-02 21:58:37 connectionpool.py [line:788] INFO: Starting new HTTPS connection (1): movie.douban.com
+2018-08-02 21:58:37 downloader.py [line:37] INFO: [Downloader]: Response [200] <http://news.baidu.com/>
+2018-08-02 21:58:38 downloader.py [line:13] INFO: [Downloader] : Request [GET] <https://movie.douban.com/top250?start=50>
+2018-08-02 21:58:38 connectionpool.py [line:788] INFO: Starting new HTTPS connection (1): movie.douban.com
+2018-08-02 21:58:38 downloader.py [line:37] INFO: [Downloader]: Response [200] <https://movie.douban.com/top250?start=0>
+2018-08-02 21:58:39 downloader.py [line:13] INFO: [Downloader] : Request [GET] <https://movie.douban.com/top250?start=75>
+2018-08-02 21:58:39 connectionpool.py [line:788] INFO: Starting new HTTPS connection (1): movie.douban.com
+2018-08-02 21:58:39 downloader.py [line:37] INFO: [Downloader]: Response [200] <https://movie.douban.com/top250?start=25>
+2018-08-02 21:58:39 downloader.py [line:13] INFO: [Downloader] : Request [GET] <https://movie.douban.com/top250?start=100>
+2018-08-02 21:58:39 connectionpool.py [line:788] INFO: Starting new HTTPS connection (1): movie.douban.com
+2018-08-02 21:58:40 downloader.py [line:37] INFO: [Downloader]: Response [200] <https://movie.douban.com/top250?start=75>
+2018-08-02 21:58:41 downloader.py [line:13] INFO: [Downloader] : Request [GET] <https://movie.douban.com/top250?start=125>
+2018-08-02 21:58:41 connectionpool.py [line:788] INFO: Starting new HTTPS connection (1): movie.douban.com
+2018-08-02 21:58:42 downloader.py [line:37] INFO: [Downloader]: Response [200] <https://movie.douban.com/top250?start=100>
+2018-08-02 21:58:42 downloader.py [line:13] INFO: [Downloader] : Request [GET] <https://movie.douban.com/top250?start=150>
+2018-08-02 21:58:42 connectionpool.py [line:788] INFO: Starting new HTTPS connection (1): movie.douban.com
+2018-08-02 21:58:45 downloader.py [line:37] INFO: [Downloader]: Response [200] <https://movie.douban.com/top250?start=125>
+2018-08-02 21:58:46 downloader.py [line:13] INFO: [Downloader] : Request [GET] <https://movie.douban.com/top250?start=175>
+2018-08-02 21:58:46 connectionpool.py [line:788] INFO: Starting new HTTPS connection (1): movie.douban.com
+2018-08-02 21:58:48 downloader.py [line:37] INFO: [Downloader]: Response [200] <https://movie.douban.com/top250?start=150>
+2018-08-02 21:58:48 downloader.py [line:13] INFO: [Downloader] : Request [GET] <https://movie.douban.com/top250?start=200>
+2018-08-02 21:58:48 connectionpool.py [line:788] INFO: Starting new HTTPS connection (1): movie.douban.com
+2018-08-02 21:58:49 downloader.py [line:37] INFO: [Downloader]: Response [200] <https://movie.douban.com/top250?start=200>
+2018-08-02 21:58:49 downloader.py [line:13] INFO: [Downloader] : Request [GET] <https://movie.douban.com/top250?start=225>
+2018-08-02 21:58:49 connectionpool.py [line:788] INFO: Starting new HTTPS connection (1): movie.douban.com
+2018-08-02 21:58:50 downloader.py [line:37] INFO: [Downloader]: Response [200] <https://movie.douban.com/top250?start=225>
+2018-08-02 21:58:50 downloader.py [line:37] INFO: [Downloader]: Response [200] <https://movie.douban.com/top250?start=50>
+2018-08-02 21:58:51 downloader.py [line:37] INFO: [Downloader]: Response [200] <https://movie.douban.com/top250?start=175>
+2018-08-02 22:00:43 scheduler.py [line:24] INFO: ROLE is master
+2018-08-02 22:00:43 engine.py [line:35] INFO: [Async Type]: coroutine
+2018-08-02 22:00:43 engine.py [line:105] INFO: Start time : 2018-08-02 22:00:43.995036
+2018-08-02 22:00:43 engine.py [line:106] INFO: ------------------------------------------------------------------------------------------------------------------------
+2018-08-02 22:01:13 scheduler.py [line:24] INFO: ROLE is slave
+2018-08-02 22:01:14 engine.py [line:35] INFO: [Async Type]: coroutine
+2018-08-02 22:01:14 engine.py [line:105] INFO: Start time : 2018-08-02 22:01:14.008522
+2018-08-02 22:01:14 engine.py [line:106] INFO: ------------------------------------------------------------------------------------------------------------------------
+2018-08-02 22:01:14 downloader.py [line:13] INFO: [Downloader] : Request [GET] <http://www.baidu.com>
+2018-08-02 22:01:14 connectionpool.py [line:213] INFO: Starting new HTTP connection (1): www.baidu.com
+2018-08-02 22:01:14 downloader.py [line:13] INFO: [Downloader] : Request [GET] <http://news.baidu.com/>
+2018-08-02 22:01:14 connectionpool.py [line:213] INFO: Starting new HTTP connection (1): news.baidu.com
+2018-08-02 22:01:14 downloader.py [line:13] INFO: [Downloader] : Request [GET] <http://www.baidu.com/>
+2018-08-02 22:01:14 connectionpool.py [line:213] INFO: Starting new HTTP connection (1): www.baidu.com
+2018-08-02 22:01:14 downloader.py [line:37] INFO: [Downloader]: Response [200] <http://www.baidu.com/>
+2018-08-02 22:01:14 downloader.py [line:13] INFO: [Downloader] : Request [GET] <https://movie.douban.com/top250?start=0>
+2018-08-02 22:01:14 connectionpool.py [line:788] INFO: Starting new HTTPS connection (1): movie.douban.com
+2018-08-02 22:01:14 downloader.py [line:37] INFO: [Downloader]: Response [200] <http://www.baidu.com/>
+2018-08-02 22:01:14 downloader.py [line:13] INFO: [Downloader] : Request [GET] <https://movie.douban.com/top250?start=25>
+2018-08-02 22:01:14 connectionpool.py [line:788] INFO: Starting new HTTPS connection (1): movie.douban.com
+2018-08-02 22:01:14 downloader.py [line:37] INFO: [Downloader]: Response [200] <http://news.baidu.com/>
+2018-08-02 22:01:14 downloader.py [line:13] INFO: [Downloader] : Request [GET] <https://movie.douban.com/top250?start=50>
+2018-08-02 22:01:14 connectionpool.py [line:788] INFO: Starting new HTTPS connection (1): movie.douban.com
+2018-08-02 22:01:14 downloader.py [line:37] INFO: [Downloader]: Response [200] <https://movie.douban.com/top250?start=25>
+2018-08-02 22:01:15 downloader.py [line:13] INFO: [Downloader] : Request [GET] <https://movie.douban.com/top250?start=75>
+2018-08-02 22:01:15 connectionpool.py [line:788] INFO: Starting new HTTPS connection (1): movie.douban.com
+2018-08-02 22:01:17 downloader.py [line:37] INFO: [Downloader]: Response [200] <https://movie.douban.com/top250?start=50>
+2018-08-02 22:01:17 downloader.py [line:13] INFO: [Downloader] : Request [GET] <https://movie.douban.com/top250?start=100>
+2018-08-02 22:01:17 connectionpool.py [line:788] INFO: Starting new HTTPS connection (1): movie.douban.com
+2018-08-02 22:01:18 downloader.py [line:37] INFO: [Downloader]: Response [200] <https://movie.douban.com/top250?start=0>
+2018-08-02 22:01:18 downloader.py [line:13] INFO: [Downloader] : Request [GET] <https://movie.douban.com/top250?start=125>
+2018-08-02 22:01:18 connectionpool.py [line:788] INFO: Starting new HTTPS connection (1): movie.douban.com
+2018-08-02 22:01:20 downloader.py [line:37] INFO: [Downloader]: Response [200] <https://movie.douban.com/top250?start=100>
+2018-08-02 22:01:20 downloader.py [line:13] INFO: [Downloader] : Request [GET] <https://movie.douban.com/top250?start=150>
+2018-08-02 22:01:20 connectionpool.py [line:788] INFO: Starting new HTTPS connection (1): movie.douban.com
+2018-08-02 22:01:20 downloader.py [line:37] INFO: [Downloader]: Response [200] <https://movie.douban.com/top250?start=150>
+2018-08-02 22:01:21 downloader.py [line:13] INFO: [Downloader] : Request [GET] <https://movie.douban.com/top250?start=175>
+2018-08-02 22:01:21 connectionpool.py [line:788] INFO: Starting new HTTPS connection (1): movie.douban.com
+2018-08-02 22:01:21 downloader.py [line:37] INFO: [Downloader]: Response [200] <https://movie.douban.com/top250?start=175>
+2018-08-02 22:01:22 downloader.py [line:13] INFO: [Downloader] : Request [GET] <https://movie.douban.com/top250?start=200>
+2018-08-02 22:01:22 connectionpool.py [line:788] INFO: Starting new HTTPS connection (1): movie.douban.com
+2018-08-02 22:01:24 downloader.py [line:37] INFO: [Downloader]: Response [200] <https://movie.douban.com/top250?start=125>
+2018-08-02 22:01:24 downloader.py [line:13] INFO: [Downloader] : Request [GET] <https://movie.douban.com/top250?start=225>
+2018-08-02 22:01:24 connectionpool.py [line:788] INFO: Starting new HTTPS connection (1): movie.douban.com
+2018-08-02 22:01:25 downloader.py [line:37] INFO: [Downloader]: Response [200] <https://movie.douban.com/top250?start=200>
+2018-08-02 22:01:26 downloader.py [line:37] INFO: [Downloader]: Response [200] <https://movie.douban.com/top250?start=75>
+2018-08-02 22:01:30 downloader.py [line:37] INFO: [Downloader]: Response [200] <https://movie.douban.com/top250?start=225>
